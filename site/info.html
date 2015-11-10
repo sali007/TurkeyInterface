@@ -1,0 +1,784 @@
+<html>
+<head>
+    <title>Info</title>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1251" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="refresh" content="180; URL=./index.html" />
+    <link rel="stylesheet" href="./css/info.css" type="text/css" />
+
+    <script type="text/javascript" src="./js/engine/utils.js"></script>
+
+    <script type="text/javascript" src="./js/engine/storage.js"></script>
+
+    <script type="text/javascript" src="./js/engine/base.js"></script>
+
+    <script type="text/javascript" src="./js/lang/str_F1.js"></script>
+
+    <script type="text/javascript" src="./js/lang/str_FC.js"></script>
+
+    <script type="text/javascript">
+
+        var OFF_PARS = 7;
+        var nCurPar = 0;
+        var nCurOfferPar = 0;
+
+        function clickBtn(nIdx) {
+            var oCurBtn = $("btn_" + nCurPar);
+            var oCurCont = $("cont_" + nCurPar);
+            var oSelectBtn = $("btn_" + nIdx);
+            var oSelectCont = $("cont_" + nIdx);
+            if (oCurBtn == oSelectBtn) return;
+            if (!($isNoU(oSelectBtn) || $isNoU(oSelectCont))) {
+                oSelectBtn.className = "menu_btn_on";
+                oSelectBtn.childNodes[0].className = "menu_txt_on";
+                oSelectCont.style.display = "block";
+                if (!($isNoU(oCurBtn) || $isNoU(oCurCont))) {
+                    oCurBtn.className = "menu_btn_off";
+                    oCurBtn.childNodes[0].className = "menu_txt_off";
+                    oCurCont.style.display = "none";
+                }
+                if (nIdx == 3) {
+                    nCurOfferPar = 0;
+                    arrowClick("RIGHT");    
+                }
+//                if (nIdx == 11){
+//                
+//                }
+                nCurPar = nIdx;
+            }
+        }
+
+        function arrowClick(sDelivery) {
+            var oCurOfferPar = $("off_" + nCurOfferPar);
+            if (!$isNoU(oCurOfferPar)) {
+                oCurOfferPar.style.display = "none";
+            }
+            if (sDelivery == "LEFT") {
+                nCurOfferPar--;
+            }
+            else if (sDelivery == "RIGHT") {
+                nCurOfferPar++;
+            }
+            oCurOfferPar = $("off_" + nCurOfferPar);
+            if (!$isNoU(oCurOfferPar)) {
+                oCurOfferPar.style.display = "block";
+            }
+            if (nCurOfferPar == 1) {
+                $("arrow_left").style.display = "none";
+            }
+            else if (nCurOfferPar > 1) {
+                $("arrow_left").style.display = "block";
+            }
+            if (nCurOfferPar == OFF_PARS) {
+                $("arrow_right").style.display = "none";
+            }
+            else if (nCurOfferPar < OFF_PARS) {
+                $("arrow_right").style.display = "block";
+            }
+        }
+        
+        function displayPrvData() {
+            storage.put("prv_data_page", "0");
+            ff.submit();    
+        }
+        
+        function loadvar(){
+        
+        
+        
+        	   var sLang = storage.get("language");
+       if(sLang == "F1")
+       {
+       $("btn_center_F1").style.display = "block";
+//       document.getElementById('btn_back').style.display = "block";
+//       document.getElementById('btn_forward').style.display = "block";
+//       document.getElementById('btn_del').style.display = "block";
+       
+       }
+       else {
+       $("btn_center_FC").style.display = "block";
+//       document.getElementById('btn_back_FC').style.display = "block";
+//       document.getElementById('btn_forward_FC').style.display = "block";
+//       document.getElementById('btn_del_FC').style.display = "block";
+       }
+		
+        
+        
+        
+        
+//	        var props = document.getElementById('dealer_bank_props').value;
+//	        document.getElementById('dealer_bank_props_txtarea').innerHTML = props;
+		new CInnerShadow($('btn_left'), { color: 30 });
+		new CInnerShadow($('btn_center'), { saturation: 1, brightness: 200 });
+		new CInnerShadow($('btn_right'), { color: 30 });
+	        attachPropertyChangeListener('OfferType', showOffer);
+	        showOffer();
+        }
+        
+        function showOffer()
+        {
+        	$('cont_off_place').className = 'offer' + (parseInt($('OfferType').value) + 1) + '_show';
+        };
+
+    </script>
+
+</head>
+<body onload="clickBtn(1); loadvar();">
+    <div id="content">
+        <div id="title">
+            <div id="title_text" class="title">
+                <div id="title_text_div_left">
+                    <div id="title_text_div">
+
+                        <script type="text/javascript">document.write(getStr("info_info"));</script>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="work_place">
+            <div id="menu" class="f_l">
+                <div id="btn_1" class="menu_btn_off" onclick="clickBtn(1);">
+                    <span class="menu_txt_off">
+
+                        <script type="text/javascript">document.write(getStr("o_terminale"));</script>
+
+                    </span>
+                </div>
+                <!--            <div id="btn_2" class="menu_btn_off" onClick="clickBtn(2);"><span class="menu_txt_off"><script type="text/javascript">document.write(getStr("dla_klientov"));</script></span></div>-->
+                <div id="btn_3" class="menu_btn_off" onclick="clickBtn(3);">
+                    <span class="menu_txt_off">
+
+                        <script type="text/javascript">document.write(getStr("oferta1"));</script>
+
+                    </span>
+                </div>
+                <!--<div id="btn_4" class="menu_btn_off" onClick="clickBtn(4);"><span class="menu_txt_off">ОБ ОПЕРАТОРЕ СИСТЕМЫ</span></div>-->
+                <!--<div id="btn_5" class="menu_btn_off" onclick="clickBtn(5);"><span class="menu_txt_off">О РАСЧЕТНОМ БАНКЕ</span></div>-->
+                <!--div id="btn_6" class="menu_btn_off" onclick="location = './guid.html';"><span class="menu_txt_off">ПРАВИЛА ПОЛЬЗОВАНИЯ</span></div-->
+                <!--<div id="btn_8" class="menu_btn_off" onclick="clickBtn(8);"><span class="menu_txt_off">О ЛОТЕРЕЯХ</span></div>-->
+                <!--<div id="btn_9" class="menu_btn_off" onclick="clickBtn(9);"><span class="menu_txt_off">О РЕКЛАМЕ</span></div>-->
+                <!--<div id="btn_10" class="menu_btn_off" onclick="clickBtn(10);"><span class="menu_txt_off">АРЕНДА ПЛОЩАДЕЙ</span></div>-->
+                <!--<div id="btn_11" class="menu_btn_off" onClick="location = './guid.html';"><span class="menu_txt_off">ПРАВИЛА ПОЛЬЗОВАНИЯ</span></div>-->
+                <!--div id="btn_7" class="menu_btn_off" onclick="location = './pay_status.html'"><span class="menu_txt_off">ПРОВЕРКА ПЛАТЕЖА</span></div-->
+            </div>
+            <div id="info" class="f_r">
+                <div class="round_line">
+                    <div class="angle bg_lt f_l">
+                    </div>
+                    <div class="hor_rect f_l">
+                    </div>
+                    <div class="angle bg_rt f_l">
+                    </div>
+                </div>
+                <div id="info_cont">
+                    <div id="cont_1" class="cont_txt" style="display: none; position: relative">
+                        <form id="ff1" name="ff1" method="post" action="#" style="">
+                        <div class="par">
+                            <div class="f_l">
+
+                                <script type="text/javascript">document.write(getStr("info1"));</script>
+
+                            </div>
+                            <div class="f_r">
+                                <input id="terminal_number" name="terminal_number" class="inp" type="text" value="" /></div>
+                        </div>
+                        <div class="par">
+                            <div class="f_l">
+
+                                <script type="text/javascript">document.write(getStr("info2"));</script>
+
+                            </div>
+                            <div class="f_r">
+                                <input id="address" name="address" class="inp" type="text" value="" /></div>
+                        </div>
+                        <div class="par">
+                            <div class="f_l">
+
+                                <script type="text/javascript">document.write(getStr("info3"));</script>
+
+                            </div>
+                            <div class="f_r">
+                                <input id="name" name="name" class="inp" type="text" value="" /></div>
+                        </div>
+                        <div class="par">
+                            <div class="f_l">
+
+                                <script type="text/javascript">document.write(getStr("info4"));</script>
+
+                            </div>
+                            <div class="f_r">
+                                <input id="number" name="number" class="inp" type="text" value="" /></div>
+                        </div>
+                        <div class="par">
+                            <div class="f_l">
+
+                                <script type="text/javascript">document.write(getStr("info5"));</script>
+
+                            </div>
+                            <div class="f_r">
+                                <input id="phone" name="phone" class="inp" type="text" value="" /></div>
+                        </div>
+                        <!--<div class="menu_btn_off" style="position:absolute; left:0; bottom:0; margin: 0" onClick="displayPrvData()"><span id="requisite">РЕКВИЗИТЫ ПОСТАВЩИКОВ</span></div>-->
+                        </form>
+                    </div>
+                    <div id="cont_2" class="cont_txt" style="display: none;">
+                        <form id="Form1" name="ff2" method="post" action="#">
+                        <p>
+
+                            <script type="text/javascript">document.write(getStr("dla_klientov_1"));</script>
+
+                        </p>
+                        <input id="Text7" name="phone" class="inp" type="text" value="" />
+                        <p>
+
+                            <script type="text/javascript">document.write(getStr("dla_klientov_2"));</script>
+
+                        </p>
+                        </form>
+                    </div>
+                    <div id="cont_3" class="cont_txt" style="display: none;">
+                        <div id="cont_off_place" class="offer1_show">
+                            <!--СТРАНИЦА 1-->
+                            <div id="off_1" class="off_txt w_h_100 d_n">
+                                <div class="offer1">
+
+                                    <script type="text/javascript">document.write(getStr("oferta2"));</script>
+
+                                </div>
+                                <div class="offer2">
+                                    <p>
+                                        Об осуществлении с помощью программно-технического комплекса, являющегося Терминалом
+                                        или Банкоматом, по поручению физических лиц, являющихся Клиентами Системы, расчетов
+                                        в пользу ЗАО «ОСМП» (ИНН 7707510721) с целью внесения Аванса на Карту Клиента Системы,
+                                        а также последующего предоставления возможности формирования распоряжений внесенным
+                                        на Карту Клиента Системы Авансом.</p>
+                                    <p>
+                                        1. ОБЩИЕ ПОЛОЖЕНИЯ</p>
+                                    <p>
+                                        1.1. Настоящий документ является предложением - офертой (далее - "Оферта"), адресованным
+                                        лицам, являющимся Клиентами Системы, заключить договор об осуществлении с помощью
+                                        программно-технического комплекса, являющегося Терминалом или Банкоматом, по поручению
+                                        физических лиц, являющихся Клиентами Системы, расчетов в пользу ЗАО «ОСМП» (ИНН
+                                        7707510721) с целью внесения Аванса на Карту Клиента Системы, а также последующего
+                                        предоставления возможности формирования распоряжений внесенным на Карту Клиента
+                                        Системы Авансом (далее – «Договор»).</p>
+                                    <p>
+                                        1.2. Исполнителем (далее – «Банк») по настоящей Оферте является:</p>
+                                </div>
+                                <!--<form id="ff4" name="ff4" method="post" action="#">
+                                <input id="dealer_bank_props" name="dealer_bank_props" class="inp" type="hidden" value="" />
+                                <div class="par">
+                                    <div class="f_l"><script type="text/javascript">document.write(getStr("oferta3"));</script></div>
+                                    <div class="f_r"><input id="dealer_name" name="dealer_name" class="inp" type="text" value="" /></div>
+                                </div>
+                                <div class="par">
+                                    <div class="f_l"><script type="text/javascript">document.write(getStr("oferta4"));</script></div>
+                                    <div class="f_r"><input id="dealer_address" name="dealer_address" class="inp" type="text" value="" /></div>
+                                </div>
+                                <div class="par">
+                                    <div class="f_l"><script type="text/javascript">document.write(getStr("oferta5"));</script></div>
+                                    <div class="f_r"><input id="dealer_phone" name="dealer_phone" class="inp" type="text" value="" /></div>
+                                </div>
+                                <div class="par">
+                                    <div class="f_l"><script type="text/javascript">document.write(getStr("oferta6"));</script></div>
+                                    <div class="f_r"><input id="dealer_owner_name" name="dealer_owner_name" class="inp" type="text" value="" /></div>
+                                </div>
+                                <div class="par">
+                                    <div class="f_l"><ins>Лицензия<br /></ins>Банковские реквизиты:</div>
+                                    <div class="f_r">
+                                        <table cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td id="dealer_bank_props_txtarea" style="font-family : arial, arial narrow; text-align: right; font-size:15px; color:#333333;"></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </form>-->
+                            </div>
+                            <!--СТРАНИЦА 2-->
+                            <div id="off_2" class="off_txt w_h_100 d_n">
+                                <div class="offer1">
+
+                                    <script type="text/javascript">document.write(getStr("oferta7"));</script>
+
+                                </div>
+                                                                <div class="offer1">
+
+                                    <script type="text/javascript">document.write(getStr("oferta7-1"));</script>
+
+                                </div>
+                                <div class="offer2">
+                                    <p>
+                                        1.3. В настоящей Оферте используются термины «Клиент Системы», «Карта Клиента Системы»
+                                        и «Аванс» в следующем значении:</p>
+                                    <p>
+                                        Клиент Системы - физическое лицо, заключившее с ЗАО «ОСМП» Договор об использовании
+                                        Карты Клиента Системы;</p>
+                                    <p>
+                                        Карта Клиента Системы – созданная в соответствии с Договором об использовании Карты
+                                        Клиента Системы, заключенным между ЗАО «ОСМП» и Клиентом Системы, электронная учетная
+                                        запись в программном обеспечении, являющаяся местом хранения данных о денежных обязательствах
+                                        ЗАО «ОСМП» перед Клиентом Системы;</p>
+                                    <p>
+                                        Аванс - универсальная учетная единица, представленная в электронном виде на Карте
+                                        Клиента Системы, являющаяся эквивалентом денежных обязательств ЗАО «ОСМП» перед
+                                        Клиентом Системы, и находящаяся в распоряжении Клиента Системы.</p>
+                                    <p>
+                                        2. ПРЕДМЕТ ОФЕРТЫ И УСЛОВИЯ ПРЕДОСТАВЛЕНИЯ УСЛУГ</p>
+                                    <p>
+                                        2.1. Оферта выражает волю Банка заключить Договор на изложенных ниже условиях с
+                                        любым безусловно принимающим их лицом, являющимся Клиентом Системы (далее – «Клиентом»),
+                                        и содержит все существенные условия Договора, связанного с предоставлением Банком
+                                        следующих услуг (далее – «Услуги»):</p>
+                                    <p>
+                                        2.1.1. посредством Терминалов:<br />
+                                        - перевод денежных средств по поручению Клиента без открытия банковского счета в
+                                        пользу ЗАО «ОСМП» с целью внесения Аванса на Карту Клиента Системы с последующим
+                                        предоставлением Клиенту возможности формирования распоряжений внесенным на карту
+                                        Клиента Системы Авансом;</p>
+                                </div>
+                            </div>
+                            <!--СТРАНИЦА 3-->
+                            <div id="off_3" class="off_txt w_h_100 d_n">
+                                <div class="offer1">
+
+                                    <script type="text/javascript">    document.write(getStr("oferta8"));</script>
+
+                                </div>
+                                <div class="offer2">
+                                    <p>
+                                        2.1.2. посредством Банкоматов:<br />
+                                        - перевод денежных средств по поручению Клиента без открытия банковского счета в
+                                        пользу ЗАО «ОСМП» с целью внесения Аванса на Карту Клиента Системы с последующим
+                                        предоставлением Клиенту возможности формирования распоряжений внесенным на Карту
+                                        Клиента Системы Авансом,
+                                        <br />
+                                        - осуществление расчетов по поручению Клиента по их банковским счетам, в том числе
+                                        с использованием платежных карт, в пользу ЗАО «ОСМП» с целью внесения Аванса на
+                                        Карту Клиента Системы, с последующим предоставлением Клиенту возможности формирования
+                                        распоряжений внесенным на Карту Клиента Системы Авансом.
+                                    </p>
+                                    <p>
+                                        2.2. Банк предоставляет Клиенту Услуги на следующих условиях:<br />
+                                        - основанием для начала оказания Банком Услуг Клиенту является заполнение Клиентом
+                                        электронных форм в интерфейсе Терминала/Банкомата в точном соответствии с инструкциями
+                                        и указаниями, приведенными на экране Терминала /Банкомата, а в случае осуществления
+                                        перевода денежных средств по поручению Клиента без открытия банковского счета –
+                                        также внесение денежных средств в купюроприемник Терминала/Банкомата;<br />
+                                        - Клиент пользуется Услугами исключительно для личных, семейных, домашних и иных
+                                        нужд, не связанных с осуществлением предпринимательской деятельности;<br />
+                                        - сумма единовременного платежа или распоряжения внесенным на Карту Клиента Системы
+                                        Авансом не превышает 14 999 (Четырнадцать тысяч девятьсот девяносто девять) рублей;<br />
+                                        - банковские операции осуществляются в пределах срока, установленного для таких
+                                        операций действующим законодательством РФ;
+                                        <br />
+                                        - внесение Клиентом в Терминал или Банкомат денежных средств, а также распоряжение
+                                        Клиентом денежными средствами по своему банковскому счету осуществляются с целью
+                                        их перевода в ЗАО «ОСМП» в качестве Аванса, зачисляемого на Карту Клиента Системы;<br />
+                                        - формирование распоряжений внесенным на Карту Клиента Системы Авансом связано с
+                                        оплатой товаров (работ, услуг), предоставляемых организациями и индивидуальными
+                                        предпринимателями, а также органами государственной власти и местного самоуправления,
+                                        бюджетными учреждениями, находящимися в их ведении, получающими денежные средства
+                                        в рамках выполнения ими функций, установленных законодательством Российской Федерации
+                                        (далее – «Поставщики»), и осуществляется Клиентом Системы в порядке и на условиях
+                                        Договора об использовании Карты Клиента Системы.</p>
+                                </div>
+                            </div>
+                            <!--СТРАНИЦА 4-->
+                            <div id="off_4" class="off_txt w_h_100 d_n">
+                                <div class="offer1">
+
+                                    <script type="text/javascript">    document.write(getStr("oferta9"));</script>
+
+                                </div>
+                            </div>
+                            <!--СТРАНИЦА 5-->
+                            <div id="off_5" class="off_txt w_h_100 d_n">
+                                <div class="offer1">
+
+                                    <script type="text/javascript">    document.write(getStr("oferta13"));</script>
+
+                                </div>
+                            </div>
+                            <!--СТРАНИЦА 6-->
+                            <div id="off_6" class="off_txt w_h_100 d_n">
+                                <div class="offer1">
+
+                                    <script type="text/javascript">    document.write(getStr("oferta14"));</script>
+
+                                </div>
+                            </div>
+
+
+
+                                                        <div id="off_7" class="off_txt w_h_100 d_n">
+                                <div class="offer1">
+
+                                    <script type="text/javascript">    document.write(getStr("oferta15"));</script>
+
+                                </div>
+                            </div>
+
+
+
+
+
+                            <div class="offer2">
+                                <p>
+                                    2.4. В подтверждение оказания Услуг Банк обязуется выдать Клиенту Квитанцию, содержащую
+                                    следующий минимальный объем информации: наименование Банка (ИНН Банка), № и адрес
+                                    Терминала/Банкомата, дату и время операции, наименование получателя – ЗАО «ОСМП»,
+                                    наименование оплаченной услуги - Аванс по Карте Клиента Системы, сумму Аванса в
+                                    рублях, размер комиссии Банка в рублях, а также информацию о распоряжении Клиентом
+                                    внесенным Авансом – наименование Заявка, наименование Поставщика, сумма заявки в
+                                    рублях, номер телефона/счета.</p>
+                                <p>
+                                    2.5. Банк обеспечивает передачу информации обо всех осуществленных Клиентом операциях,
+                                    указанных в пунктах 2.1.1-2.1.2 Оферты, ЗАО «ОСМП» в кратчайшие сроки, обусловленные
+                                    техническими возможностями Терминала/Банкомата и используемых Банком внешних сетей
+                                    передачи данных (срок передачи данных может составлять 24 часа - информация об этом
+                                    указана на соответствующей странице осуществления операции в Терминале/Банкомате).</p>
+                                <p>
+                                    3. ДЕЙСТВИЯ КЛИЕНТА</p>
+                                <p>
+                                    3.1. Действия Клиента по использованию Терминала или Банкомата в соответствии с
+                                    настоящей Офертой, направленные на осуществление по поручению Клиента банковских
+                                    операций, рассматриваются как полное и безоговорочное согласие (акцепт) с офертой
+                                    Банка путем совершения конклюдентных действий в соответствии с п.3 ст.438 ГК РФ.
+                                    Каждый факт совершения расчетов с использованием Терминала или Банкомата является
+                                    самостоятельной сделкой Клиента с Банком, совершаемой на указанных в Оферте условиях.</p>
+                                <p>
+                                    3.2. Клиент обязан изучить и соблюдать инструкцию по использованию Терминала или
+                                    инструкцию по использованию Банкомата в зависимости от используемого программно-технического
+                                    комплекса (далее -«Инструкция»). Совершение Клиентом действий, не предусмотренных
+                                    Инструкцией, не может являться основанием для возникновения у Банка обязательств
+                                    по оказанию Услуг. В случае несогласия с условиями Оферты или непонимания требований
+                                    Инструкции, Клиент не вправе использовать Терминал или Банкомат для совершения каких–либо
+                                    действий, как предусмотренных, так и не предусмотренных ею.</p>
+                                <p>
+                                    3.3. Клиент обязан сохранять выданную Терминалом/Банкоматом Квитанцию об оказании
+                                    Услуг до получения информации об отражении на Карте Клиента Системы операций по
+                                    распоряжению Авансом.</p>
+                            </div>
+                            <!--</div>-->
+                            <!--СТРАНИЦА 5-->
+                            <!-- <div id="off_5" class="off_txt w_h_100 d_n">
+                        	<div class="offer1">
+					<p>4. ОСОБЫЕ УСЛОВИЯ. </p>
+					<p>4.1. Исполнитель имеет право временно прекратить оказание Услуг при отсутствии технологической возможности осуществлять взаимодействие между участниками расчетов.</p>
+					<p>4.2. Исполнитель не несет ответственности за прямой или косвенный ущерб, возникший у Клиента вследствие использования автомата самообслуживания. Исполнитель не несет ответственности за перерывы в предоставлении Услуг в случае сбоев программного обеспечения или поломок оборудования, не принадлежащего Исполнителю. Исполнитель не несет ответственности за полные или частичные перерывы в предоставлении Услуг, связанные с заменой оборудования, программного обеспечения или проведения других работ, вызванных необходимостью поддержания работоспособности и модернизации программного и/или аппаратного обеспечения.</p>
+					<p>4.3. Клиент вправе предъявлять Исполнителю претензии в письменной форме, связанные с качеством и сроками оказания Услуг, не позднее трех дней с даты получения квитанции. Срок рассмотрения претензий Исполнителем составляет не более десяти календарных дней.</p>
+					<p>4.4. Условия предоставления услуг могут изменяться Исполнителем и доводятся до сведения Клиента до момента совершения и оплаты Услуг.</p>
+					<p>4.5. Воспользовавшись Услугой, Клиент подтверждает согласие на получение сообщений рекламного и иного характера по сетям электросвязи, в том числе на телефонный номер, указанный Клиентом при оплате услуг Провайдера.</p>
+					<p>4.6 Клиент вправе обратиться в Клиентскую справочную службу путем направления письма на адрес электронной почты <font style="color:#539df0; text-decoration:underline;">help@qiwi.ru</font>, а также по телефону, указанному на квитанции об оказании Услуг, для проверки состояния внесенного платежа, а также с целью перепроведения платежа. Срок рассмотрения претензий Клиентской справочной службой составляет не более 60 (Шестидесяти) календарных дней с момента обращения Клиента.</p>
+				</div>
+				<div class="offer2">
+					<p>4. СТОИМОСТЬ УСЛУГ</p>
+					<p>4.1. Стоимость Услуг определяется Банком в процентном соотношении от суммы Аванса и/или суммы средств, которыми Клиент распорядился в пользу Поставщика и сообщается Клиенту при использовании Терминала/Банкомата до момента совершения расчетов.</p>
+					<p>4.2. Оплата Услуг производится при подтверждении совершения расчетов путем удержания стоимости Услуг из суммы денежных средств, внесенных в Терминал/Банкомат, или путем списания с банковского счета  - в зависимости от вида  осуществляемой операции.</p>
+					<p>4.3. Факт оплаты Услуг подтверждается Квитанцией.</p>
+				</div>
+                        </div>
+                        <!--СТРАНИЦА 6-->
+                            <!-- <div id="off_6" class="off_txt w_h_100 d_n">
+                        	<div class="offer1">
+					<p>4.6.1. При обращении в Клиентскую справочную службу Клиент обязан сообщить оператору дату, сумму, идентификатор платежа, а также номер транзакции (все эти данные указаны в квитанции об оказании Услуг).</p>
+					<p>4.6.2. Оператор Клиентской справочной службы предоставляет Клиенту данные о статусе платежа в следующие сроки: в течение 10 минут с момента обращения Клиента по телефону, указанному на чеке, либо в течение 30 минут с момента поступления письма Клиента на адрес электронной почты <font style="color:#539df0; text-decoration:underline;">help@qiwi.ru</font>. При отсутствии возможности предоставить данные о статусе платежа в указанные сроки по техническим причинам, оператор Клиентской справочной службы сообщает Клиенту иной срок, в течение которого Клиенту могут быть предоставлены данные о статусе платежа.</p>
+					<p>4.6.3. В случае если платеж не принят Провайдером, оператор Клиентской справочной службы по запросу Клиента осуществляет процедуру перепроведения платежа в течение 7 (Семи) дней с момента обращения Клиента. При невозможности осуществления процедуры перепроведения платежа, а также при повторном не принятии платежа Провайдером, оператор Клиентской справочной службы по запросу Клиента осуществляет проведение платежа в пользу иного Провайдера (размещенного в интерфейсе автомата самообслуживания), указанного Клиентом.</p>
+					<p>4.6.4. В случае если платеж принят Провайдером, но содержит ошибочные идентификационные данные Клиента либо сумму Платежа, оператор Клиентской справочной службы по запросу Клиента в течение 1 (Одного) дня с момента обращения Клиента направляет Провайдеру заявку на корректировку либо отмену платежа. Оператор Клиентской справочной службы отказывает Клиенту в направлении заявки на корректировку либо отмену платежа, если данный сервис не предоставляется Клиентской справочной службой в отношении Провайдера, в пользу которого был совершен платеж. Срок рассмотрения заявки Провайдером составляет не более 60 (Шестидесяти) календарных дней с момента ее получения от Клиентской справочной службы. Провайдер вправе отказать Клиентской справочной службе в отмене или корректировке платежа без объяснения причин. В случае отказа Провайдера в отмене или корректировке платежа, Клиент вправе обратиться о проведении корректировки или отмены платежа непосредственно к Провайдеру.</p>
+				</div>
+				<div class="offer2">
+					<p>5. ОСОБЫЕ УСЛОВИЯ</p>
+					<p>5.1. Банк имеет право временно приостановить оказание Услуг при отсутствии технической возможности осуществлять взаимодействие между участниками расчетов.</p>
+					<p>5.2. Банк не несет ответственности за перерывы в предоставлении Услуг в случае сбоев в программном обеспечении или в работе оборудования, не принадлежащих Банку. Банк не несет ответственности за полные или частичные перерывы в предоставлении Услуг, связанные с заменой оборудования, программного обеспечения или проведения других работ, вызванных необходимостью поддержания работоспособности и модернизации программного и/или аппаратного обеспечения.</p>
+					<p>5.3. Клиент вправе предъявлять Банку претензии в письменной форме, связанные с качеством и сроками оказания Услуг, не позднее трех дней с даты получения Квитанции. Срок рассмотрения претензий Банком составляет не более десяти календарных дней с момента обращения Клиента. </p>
+					<p>5.4. Банк оказывает Услугу при наличии у Клиента достаточной суммы для внесения Аванса или распоряжения средствами на счете или Карте Клиента Системы, независимо от правильности указания Клиентом идентификационных данных, необходимых для оплаты в пользу Поставщика. В случае неправильного указания Клиентом данных при формировании им распоряжений внесенным Авансом (например, наименование Поставщика, номер телефона/счета, сумма денежных средств и т.п.) Клиент обращается по вопросу отмены сформированного им распоряжения только к Поставщику, в пользу которого оно было сформировано. Банк не обладает возможностью осуществления таких отмен.</p>
+					<p>5.5. Условия предоставления Услуг могут изменяться Банком и доводятся до сведения Клиента до момента совершения оплаты им Услуг.</p>
+				</div>-->
+                            <!--</div>-->
+                        </div>
+                        <div id="cont_off_arrows">
+                            <div id="arrow_left" class="f_l arrow" onclick="arrowClick('LEFT');">
+                            </div>
+                            <div id="arrow_right" class="f_r arrow" onclick="arrowClick('RIGHT');">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cont_4" class="cont_txt" style="display: none;">
+                        <form id="ff3" name="ff3" method="post" action="#">
+                        <div class="w_100" align="right">
+                            <img alt="" src="./img/ui/logo_osmp.gif" /></div>
+                        <br />
+                        <div class="par2">
+                            <div class="f_l">
+
+                                <script type="text/javascript">document.write(getStr("oferta11"));</script>
+
+                            </div>
+                            <!--<div class="f_r"><input id="Text1" name="Text1" class="inp" type="text" value="ЗАО Объединеная Система Моментальных Платежей" /></div>-->
+                            <div class="f_r">
+
+                                <script type="text/javascript">document.write(getStr("oferta10"));</script>
+
+                            </div>
+                        </div>
+                        <!--                        <div class="par2">
+                            <div class="f_l">ОГРН:</div>
+                            <div class="f_r"><input id="Text2" name="Text2" class="inp" type="text" value="1047796041039" /></div>
+                        </div>
+                        <div class="par2">
+                            <div class="f_l">Телефон:</div>
+                            <div class="f_r"><input id="operator_phone" name="operator_phone" class="inp" type="text" value="" /></div>
+                        </div>-->
+                        <div class="par2">
+                            <div class="f_l">
+                                Веб-сайт:</div>
+                            <div class="f_r">
+                                <input id="Text4" name="Text4" class="inp" type="text" value="www.osmp.ru" /></div>
+                        </div>
+                        <!--                        <div class="par2">
+                            <div class="f_l">Электронная почта:</div>
+                            <div class="f_r"><input id="Text5" name="Text5" class="inp" type="text" value="sale@osmp.ru" /></div>
+                        </div>
+                        <div class="par2">
+                            <div class="f_l">Местонахождение оператора системы:</div>
+                            <div class="f_r"><input id="Text10" name="Text10" class="inp" type="text" value="117452, г. Москва, ул. Азовская, 15" /></div>
+                        </div>
+                        <div class="par2">
+                            <div class="f_l">ИНН оператора системы:</div>
+                            <div class="f_r"><input id="Text11" name="Text11" class="inp" type="text" value="7707510721" /></div>
+                        </div>
+                        <div style="color: #222; margin-top: 20px;">Федеральные органы исполнительной власти, осуществляющие контроль (надзор) за приемом платежей:</div>
+                        <div style="margin-top: 10px; padding-bottom: 10px;">Федеральная служба по финансовому мониторингу</div>
+                        <div class="par2">
+                            <div class="f_l">Сайт:</div>
+                            <div class="f_r"><input id="Text12" name="Text12" class="inp" type="text" value="www.kfm.ru" /></div>
+                        </div>
+                        <div class="par2">
+                            <div class="f_l">Тел.:</div>
+                            <div class="f_r"><input id="Text13" name="Text13" class="inp" type="text" value="(495) 627-33-97" /></div>
+                        </div>
+                        <div class="par2">
+                            <div class="f_l">Адрес:</div>
+                            <div class="f_r"><input id="Text14" name="Text14" class="inp" type="text" value="107450, Москва, К-450, ул. Мясницкая, д.39, строение 1" /></div>
+                        </div>
+                        <div style="margin-top: 10px; padding-bottom: 10px;">Федеральная служба по надзору в сфере защиты прав потребителей и благополучия человека</div>
+                        <div class="par2">
+                            <div class="f_l">Сайт:</div>
+                            <div class="f_r"><input id="Text15" name="Text15" class="inp" type="text" value="www.rospotrebnadzor.ru" /></div>
+                        </div>
+                        <div class="par2">
+                            <div class="f_l">Тел.:</div>
+                            <div class="f_r"><input id="Text16" name="Text16" class="inp" type="text" value="(499) 973-26-90, (499) 973-19-12, 8(800) 100-00-04" /></div>
+                        </div>
+                        <div class="par2">
+                            <div class="f_l">Факс:</div>
+                            <div class="f_r"><input id="Text17" name="Text17" class="inp" type="text" value="(499) 973-26-43" /></div>
+                        </div>
+                        <div class="par2">
+                            <div class="f_l">Адрес:</div>
+                            <div class="f_r"><input id="Text18" name="Text18" class="inp" type="text" value="127994, г.Москва, Вадковский переулок, дом 18, строение 5 и 7" /></div>
+                        </div>-->
+                        <div style="overflow: hidden; color: #222;">
+
+                            <script type="text/javascript">document.write(getStr("oferta12"));</script>
+
+                        </div>
+                        </form>
+                    </div>
+                    <div id="cont_5" class="cont_txt">
+                        <form id="ff5" name="ff5" method="post" action="#">
+                        <div class="w_100" align="right">
+                            <img alt="" src="./img/ui/logo_ric.gif" /></div>
+                        <br />
+                        <div class="par">
+                            <div class="f_l">
+                                Наименование:</div>
+                            <div class="f_r">
+                                <input id="Text3" name="Text3" class="inp" type="text" value="Акционерный Коммерческий Банк «1-й Процессинговый Банк» (ЗАО)" /></div>
+                        </div>
+                        <div class="par">
+                            <div class="f_l">
+                                Лицензия на осуществление операций:</div>
+                            <div class="f_r">
+                                <input id="Text6" name="Text6" class="inp" type="text" value="Лицензия ЦБ РФ №2241 от 23.07.2008г." /></div>
+                        </div>
+                        <div class="par">
+                            <div class="f_l">
+                                Телефон:</div>
+                            <div class="f_r">
+                                <input id="bank_phone" name="bank_phone" class="inp" type="text" value="" /></div>
+                        </div>
+                        <div class="par">
+                            <div class="f_l">
+                                Веб-сайт:</div>
+                            <div class="f_r">
+                                <input id="Text8" name="Text8" class="inp" type="text" value="1pb.ru" /></div>
+                        </div>
+                        <div class="par">
+                            <div class="f_l">
+                                Электронная почта:</div>
+                            <div class="f_r">
+                                <input id="Text9" name="Text9" class="inp" type="text" value="info@1pb.ru" /></div>
+                        </div>
+                        </form>
+                    </div>
+                    <div id="cont_8" style="display: none;">
+                        <p class="l_p">
+                            Лотерея – это игра, которая проводится в соответствии с договором и в которой одна
+                            сторона (организатор лотереи) проводит розыгрыш призового фонда, а вторая сторона
+                            (участник лотереи) получает право на выигрыш в соответствии с условиями лотереи.</p>
+                        <p class="l_p">
+                            Организация и проведение лотерей регулируются Федеральным законом Российской Федерации
+                            № 138-ФЗ от 11.11.2003 года «О лотереях».<b>Запрет на осуществление деятельности вне
+                                игровых зон, указанный в Законе «Об азартных играх», не распространяется на лотереи</b>.</p>
+                        <p class="l_p">
+                            Представленные на данном терминале лотереи проводятся организаторами и оператором
+                            лотереи в соответствии с утвержденными условиями лотереи на основании разрешений,
+                            выданных в соответствии с Федеральным законом Российской Федерации № 138-ФЗ от 11.11.2003
+                            года «О лотереях». Вся необходимая информация о проведении лотереи размещена непосредственно
+                            в интерфейсе платежного терминала, в том числе номера разрешений, выданных на проведение
+                            лотерей ФНС России и Минфином России. Указанную информацию в интерфейсе можно найти
+                            в меню «Оплата услуг» - раздел «Лотереи» - подраздел с наименованием конкретной
+                            лотереи - подраздел «Правила».</p>
+                        <p class="l_p">
+                            <b>Посредством терминала осуществляется только выбор игровых комбинаций лотереи и лотерейных
+                                ставок</b>. При осуществлении выбора с использованием терминала игровой комбинации
+                            лотереи и лотерейной ставки (реквизиты «электронного лотерейного билета») все данные
+                            о них передаются организатору лотереи (оператору лотереи), который поэтапно принимая
+                            и обрабатывая данную информацию, в дальнейшем осуществляет розыгрыш призового фонда
+                            лотереи (тиражные лотереи) либо предоставляет участнику возможность сопоставить
+                            реквизиты «электронного лотерейного билета» с базой данных выигрышных лотерейных
+                            билетов (бестиражные лотереи). Договор плательщика на участие в лотерее заключается
+                            с организатором лотереи, а не с владельцем терминала, принимающего оплату.</p>
+                        <p class="l_p">
+                            В соответствии с п. 14 ст. 2 Федерального закона Российской Федерации № 138-ФЗ от
+                            11.11.2003 «О лотереях» лотерейное оборудование – это оборудование, специально изготовленное
+                            и используемое для проведения лотереи, или оборудование, оснащенное лотерейными
+                            программами. В соответствии с п. 18 ст. 4 Федерального закона Российской Федерации
+                            № 244-ФЗ от 29.12.2006 «О государственном регулировании деятельности по организации
+                            и проведению азартных игр», игровой автомат – это оборудование, используемое для
+                            проведения азартных игр с материальным выигрышем, который определяется случайным
+                            образом устройством, находящимся внутри корпуса такого игрового оборудования, без
+                            участия организатора азартных игр или его работников.</p>
+                        <p class="l_p">
+                            <b>Данный терминал не является ни лотерейным оборудованием, ни игровым автоматом, т.к.
+                                не оснащен никакими лотерейными либо игровыми программами, создан для приема платежей,
+                                а не для проведения лотереи, и с помощью него не представляется возможным осуществлять
+                                розыгрыш призового фонда, а программное обеспечение, установленное на терминале,
+                                позволяет отображать лишь выбранную игровую комбинацию лотереи, лотерейной ставки
+                                и информацию о результате розыгрыша призового фонда лотереи, предоставляемую организатором
+                                лотереи (оператором лотереи).</b></p>
+                        <p class="l_p">
+                            Выбор на данном терминале игровых комбинаций лотерей и лотерейных ставок разрешен
+                            действующим законодательством Российской Федерации и не относится к игровой деятельности
+                            вне разрешенных игровых зон. <b>Владелец терминала не несет ответственности за содержание
+                                представленных лотерей.</b> Вопросы и претензии по результатам деятельности
+                            лотерей следует направлять в адрес организаторов лотерей, указанных в Правилах соответствующей
+                            лотереи при ее выборе в разделе «Оплата услуг» - «Лотереи».</p>
+                    </div>
+                    <div id="cont_9" class="off_txt w_h_100 d_n" style="display: none;">
+                        <p>
+                            <b>QIWI реклама</b> - уникальный способ донесения информации с экранов 85 000 платежных
+                            терминалов<br />
+                            <b>QIWI (КИВИ)</b> в 6 500 населенных пунктов по всей России для 60 000 000 аудитории.</p>
+                        <p>
+                            Возможности <b>QIWI реклама</b> – размещение баннерной рекламы, прямые продажи,
+                            проведение анкетирования, стимулирующих акций, голосования и другое.</p>
+                        <p>
+                            Контакты <b>QIWI реклама</b> – (495)721-23-80, <b>hello@dcontact.ru</b><br />
+                            Площадки <b>QIWI реклама</b> в интерфейсе терминалов для размещения информации:</p>
+                        <img alt="" src="./img/ui/info/info_o_reklame.gif" />
+                    </div>
+                    <div id="cont_10" class="cont_txt" style="display: none;">
+                        <p>
+                            Установка терминалов оплаты QIWI.</p>
+                        <br />
+                        <p>
+                            Наша компания, имеющая самую многочисленную сеть платежных терминалов, является
+                            лидером рынка по приему платежей, поэтому мы ищем оптимальные предложения по аренде
+                            мест под платежные терминалы как в местах с высокой посещаемостью - крупных торговых
+                            центрах, магазинах, кинотеатрах, гипермаркетах, супермаркетах и бизнес-центрах,
+                            так и в небольших магазинах с высокой проходимостью. Установка терминала позволит
+                            предоставить вашим клиентам дополнительный сервис, что увеличит посещаемость и финансовые
+                            результаты вашего бизнеса.</p>
+                        <br />
+                        <p>
+                            Если вы являетесь арендатором или владельцем торгового помещения и хотите получать
+                            дополнительный доход от использования торговой площади, то мы хотели бы предложить
+                            вам установку платежных терминалов QIWI на ваших условиях.</p>
+                        <br />
+                        <p>
+                            Для того чтобы оставить заявку на размещение платежного терминала Вам необходимо
+                            зайти на сайт компании ЗАО ОСМП <font style="color: #539df0; text-decoration: underline;">
+                                www.osmp.ru</font> в раздел «АРЕНДОДАТЕЛЯМ» и заполнить соответствующую форму.
+                            При возникновении вопросов по условиям аренды Вы можете использовать адрес <font
+                                style="color: #539df0; text-decoration: underline;">arenda@qiwi.ru</font> или
+                            контактные телефоны службы поддержки: +7 (495) 783-69-00, +7 (800) 333-69-00.</p>
+                        <br />
+                        <p>
+                            Надеемся на плодотворное сотрудничество!</p>
+                    </div>
+                    <div id="cont_11" class="cont_txt" style="display: none;">
+                        <p>
+                            Установка терминалов оплаты QIWI.</p>
+                        <br />
+                        <p>
+                            Наша компания, имеющая самую многочисленную сеть платежных терминалов, является
+                            лидером рынка по приему платежей, поэтому мы ищем оптимальные предложения по аренде
+                            мест под платежные терминалы как в местах с высокой посещаемостью - крупных торговых
+                            центрах, магазинах, кинотеатрах, гипермаркетах, супермаркетах и бизнес-центрах,
+                            так и в небольших магазинах с высокой проходимостью. Установка терминала позволит
+                            предоставить вашим клиентам дополнительный сервис, что увеличит посещаемость и финансовые
+                            результаты вашего бизнеса.</p>
+                        <br />
+                        <p>
+                            Если вы являетесь арендатором или владельцем торгового помещения и хотите получать
+                            дополнительный доход от использования торговой площади, то мы хотели бы предложить
+                            вам установку платежных терминалов QIWI на ваших условиях.</p>
+                        <br />
+                        <p>
+                            Для того чтобы оставить заявку на размещение платежного терминала Вам необходимо
+                            зайти на сайт компании ЗАО ОСМП <font style="color: #539df0; text-decoration: underline;">
+                                www.osmp.ru</font> в раздел «АРЕНДОДАТЕЛЯМ» и заполнить соответствующую форму.
+                            При возникновении вопросов по условиям аренды Вы можете использовать адрес <font
+                                style="color: #539df0; text-decoration: underline;">arenda@qiwi.ru</font> или
+                            контактные телефоны службы поддержки: +7 (495) 783-69-00, +7 (800) 333-69-00.</p>
+                        <br />
+                        <p>
+                            Надеемся на плодотворное сотрудничество!</p>
+                    </div>
+                </div>
+                <div class="round_line">
+                    <div class="angle bg_lb f_l">
+                    </div>
+                    <div class="hor_rect f_l">
+                    </div>
+                    <div class="angle bg_rb f_l">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div id="btn_left" class="bottom-button-left">
+            </div>
+            <div id="btn_center_F1" style="display: none;" class="bottom-button-center" onclick="top.location.href = './index.html';">
+                <img src="./img/ui/navigation/menu_F1.gif" />
+            </div>
+            <div id="btn_center_FC" style="display: none;" class="bottom-button-center" onclick="top.location.href = './index.html';">
+                <img src="./img/ui/navigation/menu_FC.gif" />
+            </div>
+            <div id="btn_right" class="bottom-button-right">
+            </div>
+        </div>
+    </div>
+    <form name="ff" method="post" action="prov_list_130fz.html" target="_top">
+    <input id="ProvListStartRange" name="ProvListStartRange" type="hidden" value="0" />
+    <input id="ProvListEndRange" name="ProvListEndRange" type="hidden" value="13" />
+    </form>
+    <form id="OfferTypeForm" name="OfferTypeForm" method="post" action="#">
+    <input id="OfferType" name="OfferType" type="hidden" value="0" />
+    </form>
+</body>
+</html>

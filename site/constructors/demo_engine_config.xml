@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<qiwi>
+	<Index>
+		<interfaces />
+		<banners>
+			<page id="index_page_2" move="0" bx="1012" by="436"/>
+			<page id="index_page_3" move="1" bx="30" by="200" ex="30" ey="600" jumpX="30" jumpY="436" t="300"/>
+			<page id="index_page_4" move="0" bx="780" by="800"/>
+			<page id="index_page_5" move="0" bx="0" by="800"/>
+		</banners>
+	</Index>
+	<Info>
+		<interfaces name="Info"/>
+		<banners>
+			
+		</banners> 
+	</Info>
+	<ProvList>
+		<interfaces name="ProvList"/>
+		<banners>
+			
+		</banners>
+	</ProvList>
+	<Ok>
+		<interfaces name="Ok"/>
+		<banners>
+			<page id="final_page_1" move="0" bx="20" by="18"/>
+			<page id="final_page_2" move="0" bx="650" by="18"/>
+			<page id="final_page_3" move="0" bx="20" by="760"/>
+			<page id="final_page_4" move="0" bx="440" by="760"/>
+			<page id="final_page_5" move="0" bx="860" by="760"/>
+		</banners>
+	</Ok>
+</qiwi>

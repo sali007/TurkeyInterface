@@ -1,0 +1,45 @@
+UIProvider ={"curId":"643","curNom":"RUR",
+  "grpId": "1000013",
+  "id": "23",
+  "logo": "3.gif",
+  "receiptName": "",
+  "sName": "МегаФон Центр Северный",
+  "small_logo": "",
+  "tag": "visible",
+  "__objects": [
+    {
+      "__type": "constParams"
+    },
+    {
+      "__type": "pages",
+      "__objects": [
+        {
+          "pageId": "30605",
+          "title": "",
+          "useOnline": "",
+          "__objects": [
+            {
+              "__type": "controls",
+              "__objects": [
+                {
+                  "header": "Введите Ваш номер",
+                  "footer": "Внимание! Номер телефона вводится без <8>, в формате: (ХХХ) ХХХ-ХХ-ХХ",
+                  "mask": "8(<!^\\d+${3}>)<!^\\d+${7}>",
+                  "name": "account",
+                  "nobr": "false",
+                  "regexp": "^\\d{10}$",
+                  "strip": "True",
+                  "type": "text_input"
+                },
+                {
+                  "layout": "DG",
+                  "type": "keyboard"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

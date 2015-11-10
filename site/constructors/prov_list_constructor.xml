@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+
+	<config totalTime="90" >	
+			<elements>
+					<element name="UpLine" coords="10,8" />
+					<element name="Back" coords="10,75" />
+					<element name="Table" coords="11,155" />
+					<element name="BackButton" coords="20,884" url="Info" />
+					<element name="ForwardButton" coords="958,884" url="" />
+					<element name="MainButton" coords="490,884" url="./index.html" />
+			</elements>			
+	</config>	
+	
+</root>
