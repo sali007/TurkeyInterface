@@ -24,7 +24,7 @@ UIProvider ={"curId":"643","curNom":"RUB",
               "__objects": [
                 {
                     "header": "Введите номер договора",
-                  "footer": "",
+                  "footer": "Номер счета состоит из 10 цифр",
                   "mask": "<!^\\d+${10}>",
                   "name": "account",
                   "nobr": "false",

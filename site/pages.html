@@ -40,13 +40,12 @@
         
         
             var sGroup = Object.deserialize(storage.get("group"));
-//alert(sGroup);
+
             getScript('./config/' + sLang + '/' + sGroup + '.js', function(){
             	for(var i = 0, l = UIGroups.length; i < l; i++)
             	{
             		if(UIGroups[i] && UIGroups[i].id == sGroup)
             		{
-            		
             			UIGroups[i].__objects = UIGroup;
             		}
             	}

@@ -28,7 +28,7 @@ UIProvider ={"curId":"643","curNom":"RUB",
                                     "mask": "<!^.+${5,13}>",
                                     "name": "account",
                                     "nobr": "false",
-                                    "regexp": "^.{5,11}$",
+                                    "regexp": "^.{5,13}$",
                                     "strip": "True",
                                     "type": "text_input"
                                 },

@@ -164,7 +164,7 @@ CDIFieldChunk = createClass
 	            for (var i = 0; i < this._aChunks.length; i++) {
 	                if (this._sType == "SINGLE_FRAMED" || this._sType == "SINGLE_STATIC") {
 	                    sContent +=
-	                    '<td class="field_chunk" id="' + this._sInstance + '_chunk_' + i + '_place" align="center" style="' + ((this._sType == "SINGLE_FRAMED") ? 'background: url(\'./img/ui/field/c.gif\') repeat-x;' : 'background: #f5f5f5;') + '">' + this._aChunks[i].value + '</td>';
+	                    '<td class="field_chunk" id="' + this._sInstance + '_chunk_' + i + '_place" align="center" style="' + ((this._sType == "SINGLE_FRAMED") ? 'background: url(\'./img/ui/field/c.gif\') repeat-x;' : 'color:ffffff') + '">' + this._aChunks[i].value + '</td>';
 	                }
 	                else if (this._sType == "SINGLE_DYNAMIC") {
 	                    sContent +=

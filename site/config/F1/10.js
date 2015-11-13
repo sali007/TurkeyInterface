@@ -23,8 +23,8 @@ UIProvider ={"curId":"643","curNom":"RUB",
                             "__type": "controls",
                             "__objects": [
                                 {
-                                    "header": "Ћицевой счет",
-                                    "footer": "¬ведите ваш лицевой счет",
+                                    "header": "¬ведите ¬аш лицевой счет",
+                                    "footer": "‘ормат ввода XXXXXXXXXXX",
                                     "mask": "<!^\\d+${11}>",
                                     "name": "account",
                                     "nobr": "false",
