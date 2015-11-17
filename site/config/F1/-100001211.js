@@ -1,15 +1,20 @@
 UIGroup=[
 
 {"__type":"provider","id":"400050","tag":"visible","logo":"400050.gif","sName":"STEAM","small_logo":""},
+{ "__type": "provider", "id": "400015", "tag": "visible", "logo": "400015.gif", "sName": "Game Net", "small_logo": "" },
+    {"__type":"provider","id":"523","tag":"visible","logo":"523.gif","sName":"GameXP","small_logo":""},
+    {"__type":"provider","id":"539","tag":"visible","logo":"539.gif","sName":"4game","small_logo":""},
+    {"__type":"provider","id":"2063","tag":"visible","logo":"2063.gif","sName":"Танки Онлайн","small_logo":""},
+    { "__type": "provider", "id": "8809", "tag": "visible", "logo": "8809.gif", "sName": "Warface", "small_logo": "" },
+    {"__type":"provider","id":"533","tag":"visible","logo":"533.gif","sName":"World of Warplanes","small_logo":""},
+    {"__type":"provider","id":"540","tag":"visible","logo":"540.gif","sName":"World of Warships","small_logo":""},
+    {"__type":"provider","id":"4134","tag":"visible","logo":"4134.gif","sName":"World of tanks","small_logo":""},
+    {"__type":"provider","id":"2443","tag":"visible","logo":"2443.gif","sName":"Аллоды Онлайн","small_logo":""},
 {"__type":"provider","id":"1381","tag":"visible","logo":"1381.gif","sName":"Perfect World","small_logo":""},
-{"__type":"provider","id":"2063","tag":"visible","logo":"2063.gif","sName":"Танки Онлайн","small_logo":""},
-{"__type":"provider","id":"2443","tag":"visible","logo":"2443.gif","sName":"Аллоды Онлайн","small_logo":""},
 {"__type":"provider","id":"3642","tag":"visible","logo":"3642.gif","sName":"Cross Fire","small_logo":""},
-{ "__type": "provider", "id": "8809", "tag": "visible", "logo": "8809.gif", "sName": "Warface", "small_logo": "" },
 { "__type": "provider", "id": "1369", "tag": "visible", "logo": "1369.gif", "sName": "Парапа: Город Танцев", "small_logo": "" },
 { "__type": "provider", "id": "1675", "tag": "visible", "logo": "1675.gif", "sName": "ZZima.com", "small_logo": "" },
 { "__type": "provider", "id": "400014", "tag": "visible", "logo": "400014.gif", "sName": "Aika Online", "small_logo": "" },
-{ "__type": "provider", "id": "400015", "tag": "visible", "logo": "400015.gif", "sName": "Game Net", "small_logo": "" },
 { "__type": "provider", "id": "400016", "tag": "visible", "logo": "400016.gif", "sName": "Golden Age", "small_logo": "" },
 { "__type": "provider", "id": "3614", "tag": "visible", "logo": "3614.gif", "sName": "Jade Dynasty", "small_logo": "" },
 { "__type": "provider", "id": "7888", "tag": "visible", "logo": "7888.gif", "sName": "RIOT", "small_logo": "" },
@@ -51,8 +56,6 @@ UIGroup=[
 { "__type": "provider", "id": "1377", "tag": "visible", "logo": "1377.gif", "sName": "TimeZero", "small_logo": "" },
 { "__type": "provider", "id": "8763", "tag": "visible", "logo": "8763.gif", "sName": "Blood and Soul", "small_logo": "" },
 //{ "__type": "provider", "id": "2610", "tag": "visible", "logo": "2610.gif", "sName": "Поднебесье", "small_logo": "" }
-    {"__type":"provider","id":"533","tag":"visible","logo":"533.gif","sName":"World of Warplanes","small_logo":""},
-    {"__type":"provider","id":"540","tag":"visible","logo":"540.gif","sName":"World of Warships","small_logo":""},
     {"__type":"provider","id":"537","tag":"visible","logo":"537.gif","sName":"Steam Global","small_logo":""},
     {"__type":"provider","id":"499","tag":"visible","logo":"499.gif","sName":"Carnage.ru","small_logo":""},
     {"__type":"provider","id":"500","tag":"visible","logo":"500.gif","sName":"Dragon Nest","small_logo":""},
@@ -60,19 +63,17 @@ UIGroup=[
     {"__type":"provider","id":"515","tag":"visible","logo":"515.gif","sName":"Властелин колец","small_logo":""},
     {"__type":"provider","id":"516","tag":"visible","logo":"516.gif","sName":"Rappelz","small_logo":""},
     {"__type":"provider","id":"518","tag":"visible","logo":"518.gif","sName":"Web Interactive World","small_logo":""},
-    {"__type":"provider","id":"519","tag":"visible","logo":"519.gif","sName":"Loveplanet","small_logo":""},
     {"__type":"provider","id":"520","tag":"visible","logo":"520.gif","sName":"Техномагия","small_logo":""},
     {"__type":"provider","id":"521","tag":"visible","logo":"521.gif","sName":"Фантазиум 2","small_logo":""},
     {"__type":"provider","id":"522","tag":"visible","logo":"522.gif","sName":"8day","small_logo":""},
-    {"__type":"provider","id":"523","tag":"visible","logo":"523.gif","sName":"GameXP","small_logo":""},
     {"__type":"provider","id":"524","tag":"visible","logo":"524.gif","sName":"Garena","small_logo":""},
     {"__type":"provider","id":"526","tag":"visible","logo":"526.gif","sName":"Ингамба","small_logo":""},
     {"__type":"provider","id":"527","tag":"visible","logo":"527.gif","sName":"Аватарика","small_logo":""},
     {"__type":"provider","id":"528","tag":"visible","logo":"528.gif","sName":"ИРИКОМ","small_logo":""},
     {"__type":"provider","id":"529","tag":"visible","logo":"529.gif","sName":"ARENA","small_logo":""},
     {"__type":"provider","id":"531","tag":"visible","logo":"531.gif","sName":"Reborn","small_logo":""},
-    {"__type":"provider","id":"532","tag":"visible","logo":"532.gif","sName":"Удивительные питомцы","small_logo":""},
-    {"__type":"provider","id":"539","tag":"visible","logo":"539.gif","sName":"4game","small_logo":""}
+    {"__type":"provider","id":"532","tag":"visible","logo":"532.gif","sName":"Удивительные питомцы","small_logo":""}
+
 
 
 

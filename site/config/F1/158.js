@@ -6,7 +6,7 @@ UIProvider ={
   "id": "158",
   "logo": "158.gif",
   "receiptName": "",
-  "sName": "СкайЛинк Нижний",
+  "sName": "СкайЛинк Нижний Новгород",
   "small_logo": "",
   "tag": "visible",
   "__objects": [

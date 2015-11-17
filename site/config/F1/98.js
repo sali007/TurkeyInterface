@@ -25,10 +25,10 @@ UIProvider ={"curId":"643","curNom":"RUB",
                                 {
                                     "header": "Номер договора",
                                     "footer": "Введите ваш номер договора",
-                                    "mask": "<!^d+${5}>",
+                                    "mask": "<!^\\d+${5}>",
                                     "name": "account",
                                     "nobr": "false",
-                                    "regexp": "^d{5}$",
+                                    "regexp": "^\\d{5}$",
                                     "strip": "True",
                                     "type": "text_input"
                                 },

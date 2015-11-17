@@ -9,7 +9,7 @@ UIGroup=[
     { "__type": "provider", "id": "155", "logo": "155.gif", "sName": "—кайЋинк ¬ладимир", "tag": "visible" },
     { "__type": "provider", "id": "156", "logo": "156.gif", "sName": "—кайЋинк ¬оронеж", "tag": "visible" },
     { "__type": "provider", "id": "157", "logo": "157.gif", "sName": "—кайЋинк  емерово", "tag": "visible" },
-    { "__type": "provider", "id": "158", "logo": "158.gif", "sName": "—кайЋинк Ќижний", "tag": "visible" },
+    { "__type": "provider", "id": "158", "logo": "158.gif", "sName": "—кайЋинк Ќижний Ќовгород", "tag": "visible" },
     { "__type": "provider", "id": "159", "logo": "159.gif", "sName": "—кайЋинк Ќовосибирск", "tag": "visible" },
     { "__type": "provider", "id": "160", "logo": "160.gif", "sName": "—кайЋинк ќмск", "tag": "visible" },
     { "__type": "provider", "id": "161", "logo": "161.gif", "sName": "—кайЋинк –€зань", "tag": "visible" },

@@ -25,7 +25,7 @@ UIProvider ={"curId":"643","curNom":"RUB",
                                 {
                                     "header": "Имя домена",
                                     "footer": "Введите ваше имя домена",
-                                    "mask": "^[a-zа-я0-9\-\.]+${1,32}",
+                                    "mask": "<!^[a-zа-я0-9\-\.]+${1,32}>",
                                     "name": "account",
                                     "nobr": "false",
                                     "regexp": "^[a-zа-я0-9\-\.]{1,32}$",
@@ -33,7 +33,7 @@ UIProvider ={"curId":"643","curNom":"RUB",
                                     "type": "text_input"
                                 },
                                 {
-                                    "layout": "DG",
+                                    "layout": "AL",
                                     "type": "keyboard"
                                 }
                             ]

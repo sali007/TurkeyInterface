@@ -25,7 +25,7 @@ UIProvider ={"curId":"643","curNom":"RUB",
                                 {
                                     "header": "јккаунт",
                                     "footer": "¬ведите ваш аккаунт",
-                                    "mask": "^host\\d+${1,20}",
+                                    "mask": "host<!^\\d+${1,20}>",
                                     "name": "account",
                                     "nobr": "false",
                                     "regexp": "^host\\d{1,20}$",

@@ -25,7 +25,7 @@ UIProvider ={"curId":"643","curNom":"RUB",
                                 {
                                     "header": "Номер счета",
                                     "footer": "Введите ваш номер счета счет",
-                                    "mask": "<!^\\w+${6}>",
+                                    "mask": "<!^\\w+${7}>",
                                     "name": "account",
                                     "nobr": "false",
                                     "regexp": "^\\w{7}$",

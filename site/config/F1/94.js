@@ -25,10 +25,10 @@ UIProvider ={"curId":"643","curNom":"RUB",
                                 {
                                     "header": "Ћицевой счет",
                                     "footer": "¬ведите ваш лицевой счет",
-                                    "mask": "<!^d+${7,10}>",
+                                    "mask": "<!^\\d+${7,10}>",
                                     "name": "account",
                                     "nobr": "false",
-                                    "regexp": "^d{7,10}$",
+                                    "regexp": "^\\d{7,10}$",
                                     "strip": "True",
                                     "type": "text_input"
                                 },

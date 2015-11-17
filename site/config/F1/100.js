@@ -24,16 +24,16 @@ UIProvider ={"curId":"643","curNom":"RUB",
                             "__objects": [
                                 {
                                     "header": "Номер и тип договора",
-                                    "footer": "Введите ваш номер и тип договора",
-                                    "mask": "<!^\d+${3,15}/NIC-[DREG]{1,3}$>",
+                                    "footer": "Введите ваш номер и тип договора. Пример: 725347/NIC-D",
+                                    "mask": "<!^\\d+${3,15}>/NIC-<!^[A-Za-z]+${1,3}>",
                                     "name": "account",
                                     "nobr": "false",
-                                    "regexp": "^\d{3,15}/NIC-[DREG]{1,3}$",
+                                    "regexp": "^\\d{3,15}/NIC-[A-Za-z]{1,3}$",
                                     "strip": "True",
                                     "type": "text_input"
                                 },
                                 {
-                                    "layout": "DG",
+                                    "layout": "AL",
                                     "type": "keyboard"
                                 }
                             ]

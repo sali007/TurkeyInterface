@@ -25,7 +25,7 @@ UIProvider ={"curId":"643","curNom":"RUB",
                                 {
                                     "header": "Номер заказа",
                                     "footer": "Введите ваш номер заказа",
-                                    "mask": "^\\d+${4,28}",
+                                    "mask": "<!^\\d+${4,28}>",
                                     "name": "account",
                                     "nobr": "false",
                                     "regexp": "^\\d{4,28}$",
@@ -33,7 +33,7 @@ UIProvider ={"curId":"643","curNom":"RUB",
                                     "type": "text_input"
                                 },
                                 {
-                                    "layout": "DG",
+                                    "layout": "AL",
                                     "type": "keyboard"
                                 }
                             ]
