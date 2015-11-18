@@ -26,10 +26,10 @@ UIProvider ={"curId":"643","curNom":"RUB",
                 {
                   "header": "Введите имя персонажа",
                   "footer": "",
-                  "mask": "<!^.+${1,30}>",
+                  "mask": "<!^\\w+${1,30}>",
                   "name": "account",
                   "nobr": "false",
-                  "regexp": "^.{1,30}$",
+                  "regexp": "^\\w{1,30}$",
                   "strip": "True",
                   "type": "text_input"
                 },

@@ -7,6 +7,7 @@ UIGroup = [
     { "__type": "group", "id": "100002382", "tag": "visible", "logo": "5.gif", "name": "Ростелеком", "small_logo": "" },
     { "__type": "provider", "id": "534", "tag": "visible", "logo": "534.gif", "sName": "Йота. Сотовая связь", "small_logo": "" },
 { "__type": "provider", "id": "9", "tag": "visible", "logo": "9.gif", "sName": "Matrix Mobile", "small_logo": "" },
+    { "__type": "provider", "id": "552", "tag": "visible", "logo": "552.gif", "sName": "Просто Москва", "small_logo": "" },
 { "__type": "provider", "id": "31", "tag": "visible", "logo": "31.gif", "sName": "МГТС", "small_logo": "" },
 { "__type": "provider", "id": "36", "tag": "visible", "logo": "36.gif", "sName": "МОТИВ </br>Екатеринбург", "small_logo": "" },
 { "__type": "group", "id": "-10000120", "tag": "visible", "logo": "43.gif", "name": "Смартс", "small_logo": "" },

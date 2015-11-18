@@ -1,7 +1,7 @@
 UIGroup=[
 {"__type":"provider","id":"122","tag":"visible","logo":"122.gif","sName":"Мамба","small_logo":""},
 {"__type":"provider","id":"863","tag":"visible","logo":"863.gif","sName":"ВКонтакте","small_logo":""},
-    {"__type":"provider","id":"525","tag":"visible","logo":"525.gif","sName":"DrugVokrug","small_logo":""},
+    {"__type":"provider","id":"525","tag":"visible","logo":"525.gif","sName":"Друг Вокруг","small_logo":""},
     {"__type":"provider","id":"110","tag":"visible","logo":"110.gif","sName":"SMS Дневник","small_logo":""},
     {"__type":"provider","id":"519","tag":"visible","logo":"519.gif","sName":"Loveplanet","small_logo":""},
 //{"__type":"provider","id":"7911","tag":"visible","logo":"7911.gif","sName":"Вконтакте.ру ТАРГЕТИНГ","small_logo":""},

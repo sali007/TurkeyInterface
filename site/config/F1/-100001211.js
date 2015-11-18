@@ -42,7 +42,7 @@ UIGroup=[
 //{ "__type": "provider", "id": "400036", "tag": "visible", "logo": "400036.gif", "sName": "Легенда(Фэо-Медиант)", "small_logo": "" },
 { "__type": "provider", "id": "400037", "tag": "visible", "logo": "400037.gif", "sName": "Neverlads", "small_logo": "" },
 //{ "__type": "provider", "id": "400038", "tag": "visible", "logo": "400038.gif", "sName": "Легенда(Фэо-Квад)", "small_logo": "" },
-{ "__type": "provider", "id": "400039", "tag": "visible", "logo": "400039.gif", "sName": "Техномагия", "small_logo": "" },
+//{ "__type": "provider", "id": "400039", "tag": "visible", "logo": "400039.gif", "sName": "Техномагия", "small_logo": "" },
 { "__type": "provider", "id": "400040", "tag": "visible", "logo": "400040.gif", "sName": "Тюрьма. Новый Срок", "small_logo": "" },
 { "__type": "provider", "id": "400041", "tag": "visible", "logo": "400041.gif", "sName": "Удивительный Колхоз", "small_logo": "" },
 //{ "__type": "provider", "id": "400042", "tag": "visible", "logo": "400042.gif", "sName": "Battle of Immortals", "small_logo": "" },
@@ -55,6 +55,7 @@ UIGroup=[
 { "__type": "provider", "id": "400049", "tag": "visible", "logo": "400049.gif", "sName": "Haddan", "small_logo": "" },
 { "__type": "provider", "id": "1377", "tag": "visible", "logo": "1377.gif", "sName": "TimeZero", "small_logo": "" },
 { "__type": "provider", "id": "8763", "tag": "visible", "logo": "8763.gif", "sName": "Blood and Soul", "small_logo": "" },
+    {"__type":"provider","id":"538","tag":"visible","logo":"538.gif","sName":"Gatchina Online","small_logo":""},
 //{ "__type": "provider", "id": "2610", "tag": "visible", "logo": "2610.gif", "sName": "Поднебесье", "small_logo": "" }
     {"__type":"provider","id":"537","tag":"visible","logo":"537.gif","sName":"Steam Global","small_logo":""},
     {"__type":"provider","id":"499","tag":"visible","logo":"499.gif","sName":"Carnage.ru","small_logo":""},

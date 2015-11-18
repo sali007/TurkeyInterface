@@ -5,6 +5,7 @@ UIGroup=[
     {"__type":"provider","id":"400075","tag":"visible","logo":"1516.gif","sName":"YOTA","small_logo":""},
     {"__type":"provider","id":"400058","tag":"visible","logo":"400058.gif","sName":"ИНТЕРНЕТ Апельсин","small_logo":""},
     {"__type":"provider","id":"400059","tag":"visible","logo":"400059.gif","sName": "Дом.ru","small_logo": "" },
+    { "__type": "provider", "id": "7757", "tag": "visible", "logo": "7757.gif", "sName": "Skype", "small_logo": "" },
     {"__type":"provider","id":"400069","tag":"visible","logo":"215.gif","sName":"NETBYNET","small_logo":""},
     {"__type":"provider","id":"400070","tag":"visible","logo":"300002.gif","sName":"OnLime","small_logo":""},
     {"__type":"provider","id":"400071","tag":"visible","logo":"50.gif","sName":"АКАДО","small_logo":""},
@@ -16,6 +17,7 @@ UIGroup=[
     {"__type":"provider","id":"90","tag":"visible","logo":"90.png","sName":"КАБiNET интернет","small_logo":""},
     {"__type":"provider","id":"91","tag":"visible","logo":"91.png","sName":"Ростелеком Интернет Урал","small_logo":""},
     {"__type":"provider","id":"92","tag":"visible","logo":"92.png","sName":"Горком Интернет","small_logo":""},
+    { "__type": "provider", "id": "517", "tag": "visible", "logo": "517.gif", "sName": "Звонки.QIP.ru", "small_logo": "" },
     {"__type":"provider","id":"93","tag":"visible","logo":"93.gif","sName":"Таттелеком Интернет","small_logo":""},
     {"__type":"provider","id":"94","tag":"visible","logo":"94.png","sName":"Башинформ</br>(Интернет)","small_logo":""},
     {"__type":"provider","id":"96","tag":"visible","logo":"96.png","sName":"Зебра Телеком Интернет","small_logo":""},
@@ -23,6 +25,7 @@ UIGroup=[
     {"__type":"provider","id":"98","tag":"visible","logo":"98.png","sName":"Инфотелеком","small_logo":""},
     {"__type":"provider","id":"99","tag":"visible","logo":"99.png","sName":"ButovoNET","small_logo":""},
     {"__type":"provider","id":"100","tag":"visible","logo":"100.png","sName":"RU-CENTER","small_logo":""},
-    {"__type":"provider","id":"111","tag":"visible","logo":"111.png","sName":"SIPNET","small_logo":""},
-    {"__type":"provider","id":"538","tag":"visible","logo":"538.png","sName":"Gatchina Online","small_logo":""}
+    {"__type":"provider","id":"111","tag":"visible","logo":"111.png","sName":"SIPNET","small_logo":""}
+
+
 ];

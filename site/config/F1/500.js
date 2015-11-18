@@ -26,10 +26,10 @@ UIProvider ={"curId":"643","curNom":"RUB",
                 {
                   "header": "Введите логин(Ваш email)",
                   "footer": "",
-                  "mask": "<!^.*${1,255}>",
+                  "mask": "<!^.+${1,255}>",
                   "name": "account",
                   "nobr": "false",
-                  "regexp": "^[a-zA-Z0-9_.-]+@[a-zA-Z0-9_.-]+\.[a-zA-Z]+$",
+                  "regexp": "^[a-zA-Z0-9_.-]+@[a-zA-Z0-9_.-]+\.[a-zA-Z]$",
                   "strip": "True",
                   "type": "text_input"
                 },

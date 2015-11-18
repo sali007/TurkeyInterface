@@ -26,7 +26,7 @@ UIProvider ={"curId":"643","curNom":"RUB",
                 {
                   "header": "¬ведите email",
                   "footer": "",
-                  "mask": "<!^.*${255}>",
+                  "mask": "<!^.+${1,255}>",
                   "name": "account",
                   "nobr": "false",
                   "regexp": "^.{1,25}@.{1,15}\.[a-zA-Z]{2,3}$",

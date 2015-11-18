@@ -4,6 +4,7 @@ UIGroup=[
     { "__type": "group", "id": "-100002103", "logo": "icon_cellular.png", "name": "Интернет и IP</br>-телефония", "tag": "visible" },
 //{ "__type": "group", "id": "-100002103", "logo": "icon_internet.png", "name": "Интернет и IP-телефония", "tag": "visible" },
 { "__type": "group", "id": "-100001122", "logo": "icon_emoney.png", "name": "Электронные деньги", "tag": "visible" },
+    { "__type": "group", "id": "-100001211", "logo": "icon_games.png", "name": "Игры", "tag": "visible" },
 { "__type": "group", "id": "-100001123", "logo": "icon_social.png", "name": "Социальные сети и знакомства", "tag": "visible" },
 //{ "__type": "group", "id": "-100002211", "logo": "icon_games.png", "name": "Игры", "tag": "visible" },
 { "__type": "group", "id": "-100001211", "logo": "icon_games.png", "name": "Игры", "tag": "visible" },

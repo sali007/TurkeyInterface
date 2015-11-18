@@ -3,7 +3,7 @@ UIGroup=[
 
 
 
-
+    { "__type": "group", "id": "-100001211", "logo": "icon_games.png", "name": "»„˚", "tag": "visible" },
     { "__type": "provider", "id": "844", "tag": "visible", "logo": "844.gif", "sName": "Ã“— ¡≈À¿–”—‹", "small_logo": "" },
     { "__type": "provider", "id": "486", "tag": "visible", "logo": "486.gif", "sName": "Velcom", "small_logo": "" },
     { "__type": "provider", "id": "847", "tag": "visible", "logo": "487.gif", "sName": "Life:)", "small_logo": "" }

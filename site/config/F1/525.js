@@ -1,13 +1,12 @@
+UIProvider ={"curId":"980","curNom":"UAH",
 
-UIProvider ={"curId":"643","curNom":"RUB",
   "grpId": "100001",
-  "id": "540",
-  "logo": "540.gif",
+  "id": "525",
+  "logo": "525.gif",
   "receiptName": "",
-  "sName": "World of Warships",
+  "sName": "Друг Вокруг",
   "small_logo": "",
   "tag": "visible",
-  
   "__objects": [
     {
       "__type": "constParams"
@@ -24,17 +23,17 @@ UIProvider ={"curId":"643","curNom":"RUB",
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите email",
+                  "header": "Введите номер телефона",
                   "footer": "",
-                  "mask": "<!^.+${1,255}>",
+                  "mask": "<!^\\d+${9,11}>",
                   "name": "account",
                   "nobr": "false",
-                  "regexp": "^.{1,25}@.{1,15}\.[a-zA-Z]{2,3}$",
-                  "strip": "True",
+                  "regexp": "^\\d{9,11}$",
+                  "strip": "false",
                   "type": "text_input"
                 },
                 {
-                  "layout": "AL",
+                  "layout": "DG",
                   "type": "keyboard"
                 }
               ]
