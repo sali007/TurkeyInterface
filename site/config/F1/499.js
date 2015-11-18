@@ -34,7 +34,7 @@ UIProvider ={"curId":"643","curNom":"RUB",
                   "type": "text_input"
                 },
                 {
-                  "layout": "AL",
+                  "layout": "DG",
                   "type": "keyboard"
                 }
               ]

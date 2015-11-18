@@ -39,8 +39,6 @@ UIProvider ={"curId":"643","curNom":"RUB",
                                    }
                              ]
                         },
-                       עû זו דגמנטרü
-                      
                   ]
             }
       ]
