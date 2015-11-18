@@ -17,7 +17,7 @@ UIProvider ={"curId":"643","curNom":"RUB",
                         {
                               "pageId" : "2301",
                              "title" : "",
-                             "useOnline" : "true",
+                             "useOnline" : "",
                              "__objects" : [
                                    {
                                          "__type" : "controls",
@@ -39,29 +39,8 @@ UIProvider ={"curId":"643","curNom":"RUB",
                                    }
                              ]
                         },
-                        {
-                             "pageId" : "6582",
-                             "title" : "Онлайн ответ",
-                             "__objects" : [
-                                   {
-                                         "__type" : "controls",
-                                         "__objects" : [
-                                               {
-                                                     "disp_name" : "disp1",
-                                                     "disp_type" : "extra",
-                                                     "header" : "Проверьте ваши данные:",
-                                                     "mask" : "<!^.+${1,40}>",
-                                                     "name" : "data",
-                                                     "nobr" : "false",
-                                                     "regexp" : "^.+$",
-                                                     "strip" : "false",
-                                                     "type" : "disp_input",
-                                                     "visible" : "true"
-                                               }
-                                         ]
-                                   }
-                             ]
-                        }
+                       ты же гворишь
+                      
                   ]
             }
       ]
