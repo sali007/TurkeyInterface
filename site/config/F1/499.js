@@ -24,7 +24,7 @@ UIProvider ={"curId":"643","curNom":"RUB",
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Имя счета",
+                  "header": "Номер счета",
                   "footer": "",
                   "mask": "<!^\\d+${10}>",
                   "name": "account",
