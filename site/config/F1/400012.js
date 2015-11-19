@@ -4,7 +4,7 @@ UIProvider ={"curId":"643","curNom":"RUB",
   "id": "400012",
   "logo": "400012.gif",
   "receiptName": "",
-  "sName": "Teletie.Бизнес",
+  "sName": "TELETIE.Бизнес",
   "small_logo": "",
   "tag": "visible",
   "__objects": [

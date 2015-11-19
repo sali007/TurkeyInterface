@@ -25,7 +25,7 @@ UIGroup=[
 { "__type": "provider", "id": "400019", "tag": "visible", "logo": "400019.gif", "sName": "Combat Arms", "small_logo": "" },
 { "__type": "provider", "id": "400021", "tag": "visible", "logo": "400021.gif", "sName": "Герои войны и денег", "small_logo": "" },
 { "__type": "provider", "id": "400022", "tag": "visible", "logo": "400022.gif", "sName": "My Lands: Blask Gem Hunting", "small_logo": "" },
-//{ "__type": "provider", "id": "400020", "tag": "visible", "logo": "400020.gif", "sName": "Княжеские Войны", "small_logo": "" },
+{ "__type": "provider", "id": "400020", "tag": "visible", "logo": "400020.gif", "sName": "Княжеские Войны", "small_logo": "" },
 { "__type": "provider", "id": "400023", "tag": "visible", "logo": "400023.gif", "sName": "11x11", "small_logo": "" },
 { "__type": "provider", "id": "400024", "tag": "visible", "logo": "400024.gif", "sName": "Троецарствие@мейл.ру", "small_logo": "" },
 { "__type": "provider", "id": "400025", "tag": "visible", "logo": "400025.gif", "sName": "Легенда: Наследие драконов(фэо-прайм)", "small_logo": "" },
