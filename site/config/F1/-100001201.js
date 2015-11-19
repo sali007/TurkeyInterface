@@ -19,7 +19,6 @@ UIGroup = [
 { "__type": "provider", "id": "410", "tag": "visible", "logo": "410.gif", "sName": "Simtravel", "small_logo": "" },
 { "__type": "provider", "id": "419", "tag": "visible", "logo": "419.gif", "sName": "Globalsim", "small_logo": "" },
 { "__type": "provider", "id": "475", "tag": "visible", "logo": "475.gif", "sName": "Алло Инкогнито", "small_logo": "" },
-{ "__type": "provider", "id": "4824", "tag": "visible", "logo": "4824.gif", "sName": "TELETIE", "small_logo": "" },
     { "__type": "provider", "id": "485", "tag": "visible", "logo": "485.gif", "sName": "Связьинформ Калининград(фиксированная связь)", "small_logo": "" },
     { "__type": "provider", "id": "494", "tag": "visible", "logo": "494.gif", "sName": "МТТ", "small_logo": "" },
     { "__type": "provider", "id": "497", "tag": "visible", "logo": "497.gif", "sName": "Велком Томск", "small_logo": "" },

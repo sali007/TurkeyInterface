@@ -25,7 +25,7 @@ UIProvider ={"curId":"643","curNom":"RUB",
                                 {
                                     "header": "Номер лицевого счета",
                                     "footer": "Введите ваш номер лицевого счета",
-                                    "mask": "^\\d+${2,5}",
+                                    "mask": "<!^\\d+${2,5}>",
                                     "name": "account",
                                     "nobr": "false",
                                     "regexp": "^\\d{2,5}$",

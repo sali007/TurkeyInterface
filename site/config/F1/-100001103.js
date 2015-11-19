@@ -14,8 +14,8 @@ UIGroup=[
     { "__type": "provider", "id": "20", "tag": "visible", "logo": "20.gif", "sName": "НТВ+", "small_logo": "" },
     { "__type": "provider", "id": "3931", "tag": "visible", "logo": "3931.gif", "sName": "Триколор ТВ", "small_logo": "" },
 //{ "__type": "provider", "id": "400051", "tag": "visible", "logo": "400051.gif", "sName": "Эфирное ТВ ACBT", "small_logo": "" },
-    { "__type": "provider", "id": "300001", "tag": "visible", "logo": "300001.gif", "sName": "Радуга TV", "small_logo": "" }
-//{ "__type": "provider", "id": "300002", "tag": "visible", "logo": "300002.gif", "sName": "Onlime TV", "small_logo": "" }
+    { "__type": "provider", "id": "300001", "tag": "visible", "logo": "300001.gif", "sName": "Радуга TV", "small_logo": "" },
+{ "__type": "provider", "id": "300002", "tag": "visible", "logo": "300002.gif", "sName": "Onlime TV", "small_logo": "" }
 
 
 
