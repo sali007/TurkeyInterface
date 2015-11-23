@@ -35,7 +35,7 @@
     "final_pin_msg_ok": "Thank you very much for using our service",
     "final_pin_msg_err": "Transaction was not completed.<br />Please contact our Helpline on071 514-81-18",
     "term_1": "1. Выберите пункт меню",
-    "term_2": "2. Укажите Вашу страну",
+    "term_2": "2. Выберите Вашу страну",
     "term_2a": "3. Выберите провайдера",
     "term_3": "4. Введите номер оплачиваемого мобильного телефона",
     "term_4": "5. Набрав номер, нажмите “ВПЕРЕД”",

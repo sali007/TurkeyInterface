@@ -7,7 +7,6 @@ UIGroup=[
     { "__type": "group", "id": "-100001211", "logo": "icon_games.png", "name": "Игры", "tag": "visible" },
 { "__type": "group", "id": "-100001123", "logo": "icon_social.png", "name": "Социальные сети и знакомства", "tag": "visible" },
 //{ "__type": "group", "id": "-100002211", "logo": "icon_games.png", "name": "Игры", "tag": "visible" },
-{ "__type": "group", "id": "-100001211", "logo": "icon_games.png", "name": "Игры", "tag": "visible" },
 { "__type": "group", "id": "-100001216", "logo": "icon_cosmetic.png", "name": "Косметика", "tag": "visible" }
 
 

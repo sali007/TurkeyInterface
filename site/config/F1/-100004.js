@@ -15,7 +15,7 @@ UIGroup=[
 {"__type":"provider","id":"508","tag":"visible","logo":"508.gif","sName":"MagtiFix","small_logo":""},
 //{"__type":"provider","id":"2690","tag":"visible","logo":"2690.gif","sName":"Goodline","small_logo":""},
 {"__type":"provider","id":"510","tag":"visible","logo":"510.gif","sName":"Globalcell","small_logo":""},
-{"__type":"provider","id":"509","tag":"visible","logo":"509.gif","sName":"Bani","small_logo":""},
+{"__type":"provider","id":"509","tag":"visible","logo":"509.gif","sName":"Bani","small_logo":""}
 //{"__type":"provider","id":"3645","tag":"visible","logo":"3645.gif","sName":"Bali 5 tetrad","small_logo":""},
 //{"__type":"provider","id":"4693","tag":"visible","logo":"4693.gif","sName":"Bali - Gamis tarifi","small_logo":""},
 //{"__type":"provider","id":"5723","tag":"visible","logo":"5723.gif","sName":"Bali 09","small_logo":""}

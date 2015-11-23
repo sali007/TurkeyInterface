@@ -54,7 +54,7 @@ top.location.href = "./redirect_top_prv.html";
 function clickprv7365(){
                     storage.put("prv_id", "7365");
                     storage.put("prv_name", "КИЇВСТАР");
-                    storage.put("prv_logo", "./img/ui_item/158.gif");
+                    storage.put("prv_logo", "./img/ui_item/7365.gif");
                     storage.put("last_page", document.location.href);
 getScript("./config/F1/7365.js");
 top.location.href = "./redirect_top_prv.html";

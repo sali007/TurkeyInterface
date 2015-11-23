@@ -23,7 +23,7 @@ UIProvider ={"curId":"980","curNom":"UAH",
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "¬ведите номер лиуевого счета",
+                  "header": "¬ведите номер лицевого счета",
                   "footer": "",
                   "mask": "<!^\\d+${2,6}>",
                   "name": "account",

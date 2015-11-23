@@ -10,7 +10,7 @@ UIGroup = [
     { "__type": "provider", "id": "476", "tag": "visible", "logo": "476.gif", "sName": "IPNET", "small_logo": "" },
     {"__type":"provider","id":"484","tag":"visible","logo":"484.gif","sName":"Комстар-Украина","small_logo":""},
     {"__type": "provider", "id": "488", "tag": "visible", "logo": "488.gif", "sName": "Ланет", "small_logo": "" },
-//{ "__type": "provider", "id": "7493", "tag": "visible", "logo": "7493.gif", "sName": "Trinity", "small_logo": "" },
+{ "__type": "provider", "id": "489", "tag": "visible", "logo": "489.gif", "sName": "EUREKA", "small_logo": "" },
     { "__type": "provider", "id": "477", "tag": "visible", "logo": "477.gif", "sName": "Maxnet.ua", "small_logo": "" }
 //{ "__type": "group", "id": "-1000021031", "logo": "7372.gif", "name": "Воля", "tag": "visible" },
 //{ "__type": "provider", "id": "7783", "tag": "visible", "logo": "7783.gif", "sName": "Sip-net", "small_logo": "" },

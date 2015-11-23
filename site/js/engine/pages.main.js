@@ -441,10 +441,11 @@ if (oProvider.tag && oProvider.tag.indexOf('charity') > -1) {
 	        oForm.submit();
 	    },
 
-	    //	    _epaButtonClick: function(sender, eargs) {
-	    //	    	top.storage.put("last_page", document.location.href);
-	    //	        top.location.href = "./epa.html";
-	    //	    },
+	    _epaButtonClick: function(sender, eargs) {
+	    	    top.storage.put("last_page", document.location.href);
+			    top.location.href = "./epa.html";
+	    },
+
 	    _menuButtonClick: function(sender, eargs) {
 	        top.location.href = "./index.html";
 	    }
