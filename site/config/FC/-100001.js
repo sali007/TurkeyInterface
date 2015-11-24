@@ -2,7 +2,7 @@ UIGroup=[
 
 //{"__type":"group","id":"-10000120","logo":"icon_cellular.png","name":"Automatic Cellular payment","tag":"visible"},
 { "__type": "group", "id": "-100001202", "logo": "icon_cellular.png", "name": "Cellular Payment", "tag": "visible" },
-{ "__type": "group", "id": "-100001124", "logo": "icon_cellular.png", "name": "Touristik Sim Cards", "tag": "visible" },
+{ "__type": "group", "id": "-100001124", "logo": "icon_cellular_turistic.png", "name": "Touristik Sim Cards", "tag": "visible" },
 { "__type": "group", "id": "-100001103", "logo": "icon_tv.png", "name": "Satelite <br/> TV", "tag": "visible" },
 //{"__type":"provider","id":"441","tag":"visible","logo":"441.gif","sName":"Qiwi êîøåëåê","small_logo":""},
 {"__type":"group","id":"-100001122","logo":"icon_emoney.png","name":"Electroniñ money","tag":"visible"},
