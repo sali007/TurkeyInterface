@@ -24,7 +24,7 @@ UIProvider  ={"curId":"498","curNom":"MDL",
                 {
                   "header": "Введите Ваш номер",
                   "footer": "Внимание! Номер  вводится в формате : 373xxxxxxxx . Пример : 37312345678",
-                  "mask": "<!^.*${11}>",
+                  "mask": "<!^.+${11}>",
                   "name": "account",
                   "nobr": "false",
                   "regexp": "^.{11}$",
@@ -32,7 +32,7 @@ UIProvider  ={"curId":"498","curNom":"MDL",
                   "type": "text_input"
                 },
                 {
-                  "layout": "AL",
+                  "layout": "DG",
                   "type": "keyboard"
                 }
               ]

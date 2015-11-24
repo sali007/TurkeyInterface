@@ -122,7 +122,7 @@ top.location.href = "./redirect_top_prv.html";
 
 }	*/
 
-function clickprv400066(){
+/*function clickprv400066(){
                     storage.put("prv_id", "400066");
                     storage.put("prv_name", "Молдтелеком");
                     storage.put("prv_logo", "./img/ui_item/400066.gif");
@@ -130,7 +130,7 @@ function clickprv400066(){
 getScript("./config/F1/400066.js");
 top.location.href = "./redirect_top_prv.html";
 
-}
+} */
 
 /*function clickprv861() {
     storage.put("prv_id", "861");
@@ -225,12 +225,12 @@ top.location.href = "./redirect_top_prv.html";
 
 }
 
-function clickprv240(){
-                    storage.put("prv_id", "240");
-                    storage.put("prv_name", "Dalacom");
-                    storage.put("prv_logo", "./img/ui_item/240.gif");
+function clickprv146(){
+                    storage.put("prv_id", "146");
+                    storage.put("prv_name", "PAThWORD");
+                    storage.put("prv_logo", "./img/ui_item/146.gif");
                     storage.put("last_page", document.location.href);
-getScript("./config/F1/240.js"); 
+getScript("./config/F1/146.js");
 top.location.href = "./redirect_top_prv.html";	
 
 }	
@@ -429,6 +429,42 @@ function clickprv300018() {
     getScript("./config/F1/300018.js");
     top.location.href = "./redirect_top_prv.html";
 
+}
+
+function clickprv506() {
+    storage.put("prv_id", "506");
+    storage.put("prv_name", "Geocell");
+    storage.put("prv_logo", "./img/ui_item/506.gif");
+    storage.put("last_page", document.location.href);
+    getScript("./config/F1/506.js");
+    top.location.href = "./redirect_top_prv.html";
+}
+
+function clickprv510() {
+    storage.put("prv_id", "510");
+    storage.put("prv_name", "Globalcell");
+    storage.put("prv_logo", "./img/ui_item/510.gif");
+    storage.put("last_page", document.location.href);
+    getScript("./config/F1/510.js");
+    top.location.href = "./redirect_top_prv.html";
+}
+
+function clickprv507() {
+    storage.put("prv_id", "507");
+    storage.put("prv_name", "Magti GSM");
+    storage.put("prv_logo", "./img/ui_item/507.gif");
+    storage.put("last_page", document.location.href);
+    getScript("./config/F1/507.js");
+    top.location.href = "./redirect_top_prv.html";
+}
+
+function clickprv509() {
+    storage.put("prv_id", "509");
+    storage.put("prv_name", "Bani");
+    storage.put("prv_logo", "./img/ui_item/509.gif");
+    storage.put("last_page", document.location.href);
+    getScript("./config/F1/509.js");
+    top.location.href = "./redirect_top_prv.html";
 }
 
 //Армения

@@ -25,7 +25,7 @@ UIProvider ={"curId":"980","curNom":"UAH",
                 {
                   "header": "Введите номер лицевого счета или телефона",
                   "footer": "",
-                  "mask": "<!^.+${1,225}",
+                  "mask": "<!^.+${1,225}>",
                   "name": "account",
                   "nobr": "false",
                   "regexp": "^.{1,225}$",

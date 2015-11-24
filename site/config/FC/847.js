@@ -24,7 +24,7 @@ UIProvider  ={"curId":"974","curNom":"BYR",
                 {
                   "header": "Введите Ваш номер",
                   "footer": "",
-                  "mask": "+375(<!^\\d+${2}>)<!^\\d+${7}>",
+                  "mask": "+375<!^\\d+${2}>)<!^\\d+${7}>",
                   "name": "account",
                   "nobr": "false",
                   "regexp": "^\\d{9}$",

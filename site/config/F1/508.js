@@ -3,7 +3,7 @@ UIProvider  ={"curId":"981","curNom":"GEL",
   "id": "508",
   "logo": "508.gif",
   "receiptName": "",
-  "sName": "MagtiFi",
+  "sName": "MagtiFix",
   "small_logo": "",
   "tag": "visible",
   "__objects": [

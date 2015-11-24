@@ -5,10 +5,11 @@ UIGroup = [
     { "__type": "provider", "id": "145", "tag": "visible", "logo": "145.gif", "sName": "People Net", "small_logo": "" },
     { "__type": "provider", "id": "490", "tag": "visible", "logo": "490.gif", "sName": "TeNeT. Интернет", "small_logo": "" },
     {"__type":"provider","id":"149","tag":"visible","logo":"149.gif","sName":"Vega: Интернет, ТВ и доп. услуги","small_logo":""},
+    {"__type":"provider","id":"148","tag":"visible","logo":"148.gif","sName":"Vega: Телефония","small_logo":""},
     {"__type": "provider", "id": "492", "tag": "visible", "logo": "492.gif", "sName": "KievNET", "small_logo": "" },
     { "__type": "provider", "id": "491", "tag": "visible", "logo": "491.gif", "sName": "Triolan", "small_logo": "" },
     { "__type": "provider", "id": "476", "tag": "visible", "logo": "476.gif", "sName": "IPNET", "small_logo": "" },
-    {"__type":"provider","id":"484","tag":"visible","logo":"484.gif","sName":"Комстар-Украина","small_logo":""},
+    {"__type":"provider","id":"484","tag":"visible","logo":"484.gif","sName":"Комстар</br>Украина","small_logo":""},
     {"__type": "provider", "id": "488", "tag": "visible", "logo": "488.gif", "sName": "Ланет", "small_logo": "" },
 { "__type": "provider", "id": "489", "tag": "visible", "logo": "489.gif", "sName": "EUREKA", "small_logo": "" },
     { "__type": "provider", "id": "477", "tag": "visible", "logo": "477.gif", "sName": "Maxnet.ua", "small_logo": "" }

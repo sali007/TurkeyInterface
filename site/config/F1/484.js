@@ -3,7 +3,7 @@ UIProvider  ={"curId":"356","curNom":"INR",
   "id": "484",
   "logo": "484.gif",
   "receiptName": "",
-  "sName": "Комстар-Украина",
+  "sName": "Комстар</br>Украина",
   "small_logo": "",
   "tag": "visible",
   "__objects": [

@@ -6,7 +6,7 @@ UIGroup=[
     { "__type": "group", "id": "-100001211", "logo": "icon_games.png", "name": "Игры", "tag": "visible" },
     { "__type": "provider", "id": "844", "tag": "visible", "logo": "844.gif", "sName": "МТС БЕЛАРУСЬ", "small_logo": "" },
     { "__type": "provider", "id": "486", "tag": "visible", "logo": "486.gif", "sName": "Velcom", "small_logo": "" },
-    { "__type": "provider", "id": "847", "tag": "visible", "logo": "487.gif", "sName": "Life:)", "small_logo": "" }
+    { "__type": "provider", "id": "487", "tag": "visible", "logo": "847.gif", "sName": "Life:)", "small_logo": "" }
 //{ "__type": "group", "id": "-10000620", "logo": "icon_cellular.png", "name": "Сотовая связь", "tag": "visible" },
 //{ "__type": "group", "id": "-100001124", "logo": "icon_cellular.png", "name": "Туристические сим карты", "tag": "visible" },
 //{ "__type": "group", "id": "-100002124", "logo": "icon_cellular.png", "name": "Туристические сим карты", "tag": "visible" },

@@ -22,7 +22,7 @@ UIProvider  ={"curId":"981","curNom":"GEL",
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Enter your number",
+                  "header": "Введите Ваш номер",
                   "footer": "",
                   "mask": "<!^\\d+${8,9}>",
                   "name": "account",

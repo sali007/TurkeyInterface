@@ -24,7 +24,7 @@ UIProvider ={"curId":"643","curNom":"RUB",
               "__objects": [
                 {
                   "header": "Ваш номер договора",
-                  "footer": "",
+                  "footer": "Пример: 6890000019",
                   "mask": "<!^\\d+${9,10}>",
                   "name": "account",
                   "nobr": "false",

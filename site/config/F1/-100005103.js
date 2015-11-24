@@ -2,12 +2,11 @@ UIGroup=[
 //{"__type":"provider","id":"1103","tag":"visible","logo":"1103.gif","sName":"Букмекерская контора ГОЛ+ПАС","small_logo":""},
 
 
-{"__type":"provider","id":"2600","tag":"visible","logo":"2600.gif","sName":"Интернет Дома","small_logo":""},
-{ "__type": "provider", "id": "4617", "tag": "visible", "logo": "4617.gif", "sName": "iSpot", "small_logo": "" },
-{ "__type": "provider", "id": "374", "tag": "visible", "logo": "374.gif", "sName": "ICON", "small_logo": "" },
-{ "__type": "provider", "id": "3457", "tag": "visible", "logo": "3457.gif", "sName": "Q.net", "small_logo": "" },
-{ "__type": "provider", "id": "5623", "tag": "visible", "logo": "5623.gif", "sName": "Almaline", "small_logo": "" },
-{ "__type": "provider", "id": "5029", "tag": "visible", "logo": "5029.gif", "sName": "Aero", "small_logo": "" }
+    { "__type": "provider", "id": "481", "tag": "visible", "logo": "481.gif", "sName": "Транстелеком Казахстан", "small_logo": "" },
+    { "__type": "provider", "id": "482", "tag": "visible", "logo": "482.gif", "sName": "Almaline", "small_logo": "" },
+    { "__type": "provider", "id": "483", "tag": "visible", "logo": "483.gif", "sName": "MetroNet", "small_logo": "" },
+    { "__type": "provider", "id": "496", "tag": "visible", "logo": "496.gif", "sName": "Дельтател", "small_logo": "" },
+    { "__type": "provider", "id": "517", "tag": "visible", "logo": "517.gif", "sName": "Звонки.QIP.ru", "small_logo": "" }
 
 
 

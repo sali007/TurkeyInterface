@@ -3,7 +3,7 @@ UIProvider ={"curId":"398","curNom":"KZT",
   "id": "416",
   "logo": "416.gif",
   "receiptName": "",
-  "sName": "Вавилон-М",
+  "sName": "Вавилон NGN Internet",
   "small_logo": "",
   "tag": "visible",
   "__objects": [

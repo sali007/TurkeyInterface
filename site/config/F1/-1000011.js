@@ -4,14 +4,14 @@ UIGroup = [
     { "__type": "provider", "id": "400065", "tag": "visible", "logo": "4914.gif", "sName": "Tcell/North", "small_logo": "" },
     { "__type": "provider", "id": "300009", "tag": "visible", "logo": "438.gif", "sName": "Билайн</br> Таджикистан", "small_logo": "" },
     { "__type": "provider", "id": "300010", "tag": "visible", "logo": "416.gif", "sName": "Вавилон-Мобайл", "small_logo": "" },
-    { "__type": "provider", "id": "300011", "tag": "visible", "logo": "300011.png", "sName": "Мегафон </br>Таджикистан", "small_logo": "" }
+    { "__type": "provider", "id": "300011", "tag": "visible", "logo": "300011.png", "sName": "Мегафон </br>Таджикистан", "small_logo": "" },
 
 //{ "__type": "provider", "id": "4914", "tag": "visible", "logo": "4914.gif", "sName": "ТСеll - Индиго Сомонком", "small_logo": "" },
 //{ "__type": "provider", "id": "474", "tag": "visible", "logo": "474.gif", "sName": "TCell - Индиго Таджикистан", "small_logo": "" },
 //{ "__type": "provider", "id": "455", "tag": "visible", "logo": "455.gif", "sName": "ТК Мобайл", "small_logo": "" },
 //{ "__type": "provider", "id": "438", "tag": "visible", "logo": "438.gif", "sName": "Beeline Таджикистан", "small_logo": "" },
 //{ "__type": "provider", "id": "424", "tag": "visible", "logo": "424.gif", "sName": "Мегафон Таджикистан", "small_logo": "" },
-//{ "__type": "provider", "id": "416", "tag": "visible", "logo": "416.gif", "sName": "Вавилон-М", "small_logo": "" },
+{ "__type": "provider", "id": "505", "tag": "visible", "logo": "505.gif", "sName": "Вавилон NGN Internet", "small_logo": "" }
 //{ "__type": "provider", "id": "5285", "tag": "visible", "logo": "5285.gif", "sName": "TJ Мобайл", "small_logo": "" },
 //{ "__type": "provider", "id": "6209", "tag": "visible", "logo": "6209.gif", "sName": "Мегафон Таджикистан (РФ)", "small_logo": "" },
 
