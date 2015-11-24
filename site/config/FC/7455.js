@@ -24,7 +24,7 @@ UIProvider ={"curId":"980","curNom":"UAH",
               "__objects": [
                 {
                   "header": "Введите номер телефона",
-                  "footer": "",
+                  "footer": "Внимание! Номер вводится в количестве 10 цифр, например : 0441231234",
                   "mask": "<!^\\d+${1,9}>",
                   "name": "account",
                   "nobr": "false",

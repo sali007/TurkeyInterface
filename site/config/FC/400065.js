@@ -22,7 +22,7 @@ UIProvider ={"curId":"398","curNom":"KZT",
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Пополнение счета",
+                    "header": "Пополнение счета",
                   "footer": "",
                   "mask": "<!^\\d+${9}>",
                   "name": "account",

@@ -28,7 +28,7 @@ UIProvider ={"curId":"643","curNom":"RUB",
                   "mask": "<!^\\d+${10}>",
                   "name": "account",
                   "nobr": "false",
-                  "regexp": "^49[59][1-9]\\d{6}$",
+                  "regexp": "^\\d{10}$",
                   "strip": "True",
                   "type": "text_input"
                 },

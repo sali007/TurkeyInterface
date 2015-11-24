@@ -1,4 +1,4 @@
-UIGroup=[
+UIGroup = [
 { "__type": "provider", "id": "814", "tag": "visible", "logo": "814.gif", "sName": "WebMoney", "small_logo": "" },
 { "__type": "provider", "id": "8814", "tag": "visible", "logo": "8814.gif", "sName": "ίνδεκρ.Δενόγθ", "small_logo": "" },
 { "__type": "group", "id": "-8793", "logo": "8793.gif", "name": "Skype", "tag": "visible" },

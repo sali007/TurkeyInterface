@@ -1,11 +1,13 @@
-UIProvider ={"curId":"980","curNom":"UAH",
-  "grpId": "100002",
+
+UIProvider ={"curId":"643","curNom":"RUB",
+  "grpId": "100001",
   "id": "531",
   "logo": "531.gif",
   "receiptName": "",
-  "sName": "Интертелеком",
+  "sName": "Reborn",
   "small_logo": "",
   "tag": "visible",
+  
   "__objects": [
     {
       "__type": "constParams"
@@ -22,17 +24,17 @@ UIProvider ={"curId":"980","curNom":"UAH",
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите номер телефона",
+                  "header": "Введите имя логин в GameNet",
                   "footer": "",
-                  "mask": "<!^\\d+${10}>",
+                  "mask": "<!^.+${1,25}>",
                   "name": "account",
                   "nobr": "false",
-                  "regexp": "^\\d{10}$",
+                  "regexp": "^.{1,25}$",
                   "strip": "True",
                   "type": "text_input"
                 },
                 {
-                  "layout": "DG",
+                  "layout": "AL",
                   "type": "keyboard"
                 }
               ]

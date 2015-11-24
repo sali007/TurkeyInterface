@@ -25,10 +25,10 @@ UIProvider ={"curId":"643","curNom":"RUB",
                 {
                     "header": "¬ведите номер карты доступа",
                   "footer": "",
-                  "mask": "<!^\\d+${11}>",
+                  "mask": "<!^\\d+${6,11}>",
                   "name": "account",
                   "nobr": "false",
-                  "regexp": "^\\d{11}$",
+                  "regexp": "^\\d{6,11}$",
                   "strip": "True",
                   "type": "text_input"
                 },

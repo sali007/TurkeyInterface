@@ -2,7 +2,7 @@ UIProvider ={"curId":"643","curNom":"RUB",
 
   "grpId": "100001",
   "id": "400073",
-  "logo": "400073.png",
+  "logo": "400073.gif",
   "receiptName": "",
   "sName": "Golden Telecom",
   "small_logo": "",

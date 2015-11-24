@@ -11,7 +11,7 @@ UIGroup=[
 //{"__type":"provider","id":"4829","tag":"visible","logo":"4829.gif","sName":"bpay.md","small_logo":""},
 //{"__type":"provider","id":"5347","tag":"visible","logo":"5347.gif","sName":"Дорожный налог","small_logo":""},
 //{"__type":"provider","id":"6091","tag":"visible","logo":"6091.gif","sName":"Xsolla","small_logo":""},
-{ "__type": "provider", "id": "762", "tag": "visible", "logo": "762.gif", "sName": "Mamba", "small_logo": "" }
+{"__type":"provider","id":"762","tag":"visible","logo":"762.gif","sName":"Mamba","small_logo":""}
 
 
 

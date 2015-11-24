@@ -6,7 +6,7 @@ UIProvider  ={"curId":"498","curNom":"MDL",
   "sName": "Skype",
   "small_logo": "",
   "tag": "visible",
-        "minSum":"180",
+      "minSum":"180",
 			"maxSum":"180",
   "__objects": [
    {
@@ -18,12 +18,12 @@ UIProvider  ={"curId":"498","curNom":"MDL",
                              "name" : "_extra_ev_serviceid",
                              "value" : "skype"
                         },
-                                                                                                {
+                                                {
                              "__type" : "param",
                              "name" : "_extra_ev_amount",
                              "value" : "180"
                         },
-                                                                        {
+                                                {
                              "__type" : "param",
                              "name" : "_extra_PAY_TYPE",
                              "value" : "11038"
@@ -31,6 +31,7 @@ UIProvider  ={"curId":"498","curNom":"MDL",
                     
                   ]
             },
+          
     {
       "__type": "pages",
       "__objects": [
@@ -43,7 +44,7 @@ UIProvider  ={"curId":"498","curNom":"MDL",
               "__type": "controls",
               "__objects": [
                 {
-                    "header": "Enter login skype",
+                    "header": "Введите логин skype",
                   "footer": "",
                   "mask": "<!^.+${1,30}>",
                   "name": "account",
@@ -51,6 +52,7 @@ UIProvider  ={"curId":"498","curNom":"MDL",
                   "regexp": "^.+$",
                   "strip": "True",
                   "type": "text_input"
+                  
                 },
                 {
                   "layout": "AL",
@@ -59,7 +61,35 @@ UIProvider  ={"curId":"498","curNom":"MDL",
               ]
             }
           ]
-        }
+        },
+        
+        {
+                             "pageId" : "6582",
+                             "title" : "Онлайн ответ",
+                             "__objects" : [
+                                   {
+                                         "__type" : "controls",
+                                         "__objects" : [
+                                               {
+                                                     "disp_name" : "disp1",
+                                                     "disp_type" : "",
+                                                     "header" : "Сумма в леях:",
+                                                     "mask" : "<!^.+${1,40}>",
+                                                     "name" : "data",
+                                                     "nobr" : "false",
+                                                     "regexp" : "^.+$",
+                                                     "strip" : "false",
+                                                     "type" : "disp_input",
+                                                     "visible" : "true"
+                                               }
+                                         ]
+                                   }
+                             ]
+                        }
+
+
+
+
       ]
     }
   ]

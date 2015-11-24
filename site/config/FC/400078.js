@@ -25,10 +25,10 @@ UIProvider ={"curId":"643","curNom":"RUB",
                 {
                   "header": "Логин пользователя",
                   "footer": "",
-                  "mask": "<!^.+${6,255}>",
+                  "mask": "<!^.+${5,255}>",
                   "name": "account",
                   "nobr": "false",
-                  "regexp": "^.{1,255}$",
+                  "regexp": "^.{5,255}$",
                   "strip": "False",
                   "type": "text_input"
                 },

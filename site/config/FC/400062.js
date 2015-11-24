@@ -43,4 +43,4 @@ UIProvider ={"curId":"643","curNom":"RUB",
       ]
     }
   ]
-}
+};

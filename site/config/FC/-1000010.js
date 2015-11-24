@@ -1,14 +1,17 @@
 UIGroup = [
 
 
-{ "__type": "provider", "id": "5131", "tag": "visible", "logo": "5131.gif", "sName": "Мегаком", "small_logo": "" },
-{ "__type": "provider", "id": "5132", "tag": "visible", "logo": "5132.gif", "sName": "О!", "small_logo": "" },
-{ "__type": "provider", "id": "2378", "tag": "visible", "logo": "5135.gif", "sName": "Beeline", "small_logo": "" }
+    { "__type": "group", "id": "-100001211", "logo": "icon_games.png", "name": "Игры", "tag": "visible" },
+
+{ "__type": "provider", "id": "5131", "tag": "visible", "logo": "5131.gif", "sName": "MegaCom", "small_logo": "" },
+{ "__type": "provider", "id": "5132", "tag": "visible", "logo": "5132.gif", "sName": "О! НУР Телеком", "small_logo": "" },
+{ "__type": "provider", "id": "5135", "tag": "visible", "logo": "5135.gif", "sName": "Билайн Кыргызстан", "small_logo": "" }
 //{ "__type": "provider", "id": "5133", "tag": "visible", "logo": "5133.gif", "sName": "Nexi", "small_logo": "" },
 //{ "__type": "provider", "id": "5134", "tag": "visible", "logo": "5134.gif", "sName": "Fonex", "small_logo": "" },
-//{ "__type": "provider", "id": "5136", "tag": "visible", "logo": "5136.gif", "sName": "Katel", "small_logo": "" },
+//{ "__type": "provider", "id": "5136", "tag": "visible", "logo": "5136.gif", "sName": "Кател", "small_logo": "" },
 //{ "__type": "provider", "id": "5177", "tag": "visible", "logo": "5177.gif", "sName": "Sapatmobile", "small_logo": "" },
 //{ "__type": "provider", "id": "11318", "tag": "visible", "logo": "11318.gif", "sName": "(KazMoneyUnion) WebMoney", "small_logo": "" }
+
 
 
 

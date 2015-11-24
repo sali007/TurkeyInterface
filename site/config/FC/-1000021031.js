@@ -1,4 +1,4 @@
-UIGroup=[
+UIGroup = [
 { "__type": "provider", "id": "7372", "tag": "visible", "logo": "7372.gif", "sName": "Воля.Харьков.ЕУ", "small_logo": "" },
 { "__type": "provider", "id": "7373", "tag": "visible", "logo": "7373.gif", "sName": "Воля.Полтава.ЕУ", "small_logo": "" },
 { "__type": "provider", "id": "7531", "tag": "visible", "logo": "7531.gif", "sName": "Воля.Херсон.ЕУ", "small_logo": "" },
@@ -11,5 +11,7 @@ UIGroup=[
 { "__type": "provider", "id": "7525", "tag": "visible", "logo": "7525.gif", "sName": "Воля.Донецк.ЕУ", "small_logo": "" },
 { "__type": "provider", "id": "7536", "tag": "visible", "logo": "7536.gif", "sName": "Воля.Кривой Рог.ЕУ", "small_logo": "" },
 { "__type": "provider", "id": "7527", "tag": "visible", "logo": "7527.gif", "sName": "Воля.Севастополь.ЕУ", "small_logo": "" }
+
+
 
 ];

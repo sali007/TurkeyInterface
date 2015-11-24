@@ -1,10 +1,10 @@
-UIProvider ={"curId":"643","curNom":"RUB",
-  "round_math":"~1",
-  "grpId": "100001",
+UIProvider ={"curId":"980","curNom":"UAH",
+
+  "grpId": "100002",
   "id": "147",
   "logo": "147.gif",
   "receiptName": "",
-  "sName": "СкайЛинк Екатеринбург",
+  "sName": "ТриМоб",
   "small_logo": "",
   "tag": "visible",
   "__objects": [
@@ -23,9 +23,9 @@ UIProvider ={"curId":"643","curNom":"RUB",
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите Ваш номер",
-                  "footer": "Внимание! Номер телефона вводится без <8>, в формате: (ХХХ) ХХХ-ХХ-ХХ",
-                  "mask": "8(<!^\\d+${3}>)<!^\\d+${7}>",
+                  "header": "Введите номер лицевого счета или телефона",
+                  "footer": "",
+                  "mask": "<!^\\d+${10}>",
                   "name": "account",
                   "nobr": "false",
                   "regexp": "^\\d{10}$",

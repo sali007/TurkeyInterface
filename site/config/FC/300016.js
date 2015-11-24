@@ -1,9 +1,10 @@
-UIProvider  ={"curId":"643","curNom":"RUB",
+UIProvider = {
+    "curId": "643", "curNom": "AMD",
   "grpId": "100004",
   "id": "300016",
-  "logo": "5510.gif",
+  "logo": "300016.gif",
   "receiptName": "",
-  "sName": "Аквафон-GSM",
+  "sName": "MTC Армения(постоплата)",
   "small_logo": "",
   "tag": "visible",
   "__objects": [
@@ -24,10 +25,10 @@ UIProvider  ={"curId":"643","curNom":"RUB",
                 {
                   "header": "Введите Ваш номер ",
                   "footer": "",
-                  "mask": "(940)<!^\\d+${7}>",
+                  "mask": "<!^\\d+${8}>",
                   "name": "account",
                   "nobr": "false",
-                  "regexp": "^[0-9]{7,10}$",
+                  "regexp": "^\\d{8}$",
                   "strip": "True",
                   "type": "text_input"
                 },

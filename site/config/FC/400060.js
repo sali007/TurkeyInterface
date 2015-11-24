@@ -1,8 +1,10 @@
-UIProvider ={"curId":"643","curNom":"RUB",
+UIProvider ={
+    "curId": "643","curNom":"RUB",
+
   "round_math":"~1",
   "grpId": "100001",
-  "id": "46",
-  "logo": "27.gif",
+  "id": "400060",
+  "logo": "46.gif",
   "receiptName": "",
   "sName": "—кайЋинк",
   "small_logo": "",

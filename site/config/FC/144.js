@@ -1,10 +1,10 @@
-UIProvider ={"curId":"643","curNom":"RUB",
-  "round_math":"~1",
-  "grpId": "100001",
+UIProvider ={"curId":"980","curNom":"UAH",
+
+  "grpId": "100002",
   "id": "144",
   "logo": "144.gif",
   "receiptName": "",
-  "sName": "Ульяновск GSM",
+  "sName": "MTC-Коннект",
   "small_logo": "",
   "tag": "visible",
   "__objects": [
@@ -23,13 +23,13 @@ UIProvider ={"curId":"643","curNom":"RUB",
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите Ваш номер",
-                  "footer": "Внимание! Номер телефона вводится без <8>, в формате: (ХХХ) ХХХ-ХХ-ХХ",
-                  "mask": "8(<!^\\d+${3}>)<!^\\d+${7}>",
+                  "header": "Введите номер лицевого счета",
+                  "footer": "",
+                  "mask": "<!^.+${1,55}>",
                   "name": "account",
                   "nobr": "false",
-                  "regexp": "^\\d{10}$",
-                  "strip": "True",
+                  "regexp": "^.{1,55}$",
+                  "strip": "false",
                   "type": "text_input"
                 },
                 {

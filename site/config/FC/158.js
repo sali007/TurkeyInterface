@@ -1,9 +1,12 @@
-UIProvider ={"curId":"980","curNom":"UAH",
-  "grpId": "100002",
+UIProvider ={
+    "curId": "643","curNom":"RUB",
+
+  "round_math":"~1",
+  "grpId": "100001334",
   "id": "158",
   "logo": "158.gif",
   "receiptName": "",
-  "sName": "КИЇВСТАР",
+  "sName": "СкайЛинк Нижний Новгород",
   "small_logo": "",
   "tag": "visible",
   "__objects": [
@@ -22,9 +25,9 @@ UIProvider ={"curId":"980","curNom":"UAH",
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Enter your number",
-                  "footer": "",
-                  "mask": "+38(<!^\\d+${3}>)<!^\\d+${7}>",
+                  "header": "Введите Ваш номер",
+                  "footer": "Внимание! Номер телефона вводится без <8>, в формате: (ХХХ) ХХХ-ХХ-ХХ",
+                  "mask": "8(<!^\\d+${3}>)<!^\\d+${7}>",
                   "name": "account",
                   "nobr": "false",
                   "regexp": "^\\d{10}$",

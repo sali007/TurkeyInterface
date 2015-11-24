@@ -1,10 +1,10 @@
-UIProvider ={"curId":"980","curNom":"UAH",
-
-  "grpId": "100002",
+UIProvider ={"curId":"643","curNom":"RUB",
+  "round_math":"~1",
+  "grpId": "100001",
   "id": "7759",
   "logo": "7759.gif",
   "receiptName": "",
-  "sName": "Mystery: Legends of the Beyond",
+  "sName": "НСС Татарстан Теле2",
   "small_logo": "",
   "tag": "visible",
   "__objects": [
@@ -23,12 +23,12 @@ UIProvider ={"curId":"980","curNom":"UAH",
               "__type": "controls",
               "__objects": [
                 {
-                    "header": "Введите ID персонажа",
-                  "footer": "",
-                  "mask": "<!^\\d+${1,10}>",
+                  "header": "Введите Ваш номер",
+                  "footer": "Внимание! Номер телефона вводится без <8>, в формате: (ХХХ) ХХХ-ХХ-ХХ",
+                  "mask": "8(<!^\\d+${3}>)<!^\\d+${7}>",
                   "name": "account",
                   "nobr": "false",
-                  "regexp": "^\\d{1,10}$",
+                  "regexp": "^\\d{10}$",
                   "strip": "True",
                   "type": "text_input"
                 },

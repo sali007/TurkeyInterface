@@ -23,8 +23,8 @@ UIProvider ={"curId":"643","curNom":"RUB",
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите Ваш номер",
-                  "footer": "Внимание! Номер вводится без <8>, в формате: (ХХХ) ХХХ-ХХ-ХХ",
+                  "header": "Введите Ваш номер телефона",
+                  "footer": "Пример: 4951231231",
                   "mask": "<!^\\d+${10}>",
                   "name": "account",
                   "nobr": "false",

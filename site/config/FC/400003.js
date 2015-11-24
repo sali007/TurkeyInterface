@@ -4,7 +4,7 @@ UIProvider ={"curId":"643","curNom":"RUB",
   "id": "400003",
   "logo": "84.gif",
   "receiptName": "",
-  "sName": "Смартс Иваново",
+  "sName": "Смартс Иваново4",
   "small_logo": "",
   "tag": "visible",
   "__objects": [

@@ -1,6 +1,6 @@
 UIProvider = {
-    "curId": "643", "curNom": "RUB",
-    
+  "curId": "643", "curNom": "RUB",
+
   "round_math":"~1",
   "grpId": "100001",
   "id": "400080",
@@ -25,7 +25,7 @@ UIProvider = {
               "__type": "controls",
               "__objects": [
                 {
-                    "header": "Введите ID представителя",
+                  "header": "Введите ID представителя",
                   "footer": "",
                   "mask": "<!^\\d+${1,20}>",
                   "name": "account",
@@ -45,4 +45,4 @@ UIProvider = {
       ]
     }
   ]
-}
+};

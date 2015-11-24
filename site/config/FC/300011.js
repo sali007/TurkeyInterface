@@ -22,16 +22,16 @@ UIProvider = {
                   {
                       "__type": "controls",
                       "__objects": [
-                          {
-                              "header": "Введите номер телефона",
-                              "footer": "Внимание! Номер вводится в формате: 90xxxxxxx, 55xxxxxxx. Пример: 901037317",
-                              "mask": "<!^\\d+${9}>",
-                              "name": "account",
-                              "nobr": "false",
-                              "regexp": "^[55|90]{2}[0-9]{7}$",
-                              "strip": "True",
-                              "type": "text_input"
-                          },
+                        {
+                            "header": "Введите номер телефона",
+                            "footer": "Внимание! Номер вводится в формате: 90xxxxxxx, 55xxxxxxx. Пример: 901037317",
+                            "mask": "<!^\\d+${9}>",
+                            "name": "account",
+                            "nobr": "false",
+                            "regexp": "^[55|90]{2}[0-9]{7}$",
+                            "strip": "True",
+                            "type": "text_input"
+                        },
                         {
                             "layout": "DG",
                             "type": "keyboard"

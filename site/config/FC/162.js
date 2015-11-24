@@ -1,10 +1,12 @@
-UIProvider ={"curId":"643","curNom":"RUB",
+UIProvider ={
+    "curId": "643","curNom":"RUB",
+
   "round_math":"~1",
-  "grpId": "100001",
+  "grpId": "100001334",
   "id": "162",
   "logo": "162.gif",
   "receiptName": "",
-  "sName": "ONPay",
+  "sName": "СкайЛинк Ульяновск",
   "small_logo": "",
   "tag": "visible",
   "__objects": [
@@ -23,13 +25,13 @@ UIProvider ={"curId":"643","curNom":"RUB",
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите номер",
-                  "footer": "",
-                  "mask": "R<!^[0-9]+${4,15}>",
+                  "header": "Введите Ваш номер",
+                  "footer": "Внимание! Номер телефона вводится без <8>, в формате: (ХХХ) ХХХ-ХХ-ХХ",
+                  "mask": "8(<!^\\d+${3}>)<!^\\d+${7}>",
                   "name": "account",
                   "nobr": "false",
-                  "regexp": "^[Rr][0-9]{4,15}$",
-                  "strip": "False",
+                  "regexp": "^\\d{10}$",
+                  "strip": "True",
                   "type": "text_input"
                 },
                 {

@@ -1,10 +1,10 @@
+
 UIProvider ={"curId":"643","curNom":"RUB",
-  "round_math":"~1",
   "grpId": "100001",
   "id": "482",
   "logo": "482.gif",
   "receiptName": "",
-  "sName": "СкайЛинк Нижний Новгород",
+  "sName": "Almaline",
   "small_logo": "",
   "tag": "visible",
   "__objects": [
@@ -23,12 +23,12 @@ UIProvider ={"curId":"643","curNom":"RUB",
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите Ваш номер",
-                  "footer": "Внимание! Номер телефона вводится без <8>, в формате: (ХХХ) ХХХ-ХХ-ХХ",
-                  "mask": "8(<!^\\d+${3}>)<!^\\d+${7}>",
+                  "header": "Ваш номер счета",
+                  "footer": "",
+                  "mask": "<!^\\d+${8}>",
                   "name": "account",
                   "nobr": "false",
-                  "regexp": "^\\d{10}$",
+                  "regexp": "^\\d{8}$",
                   "strip": "True",
                   "type": "text_input"
                 },
@@ -43,4 +43,4 @@ UIProvider ={"curId":"643","curNom":"RUB",
       ]
     }
   ]
-}
+};

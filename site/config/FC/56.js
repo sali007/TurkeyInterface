@@ -16,6 +16,7 @@ UIProvider = {
           "__type": "pages",
           "__objects": [
 
+
             {
                 "pageId": "1",
                 "title": "",
@@ -42,7 +43,6 @@ UIProvider = {
                   }
                 ]
             },
-
 
           ]
       }

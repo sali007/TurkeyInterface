@@ -30,7 +30,7 @@ UIProvider = {
                   "mask": "<!^.*${1,255}>",
                   "name": "account",
                   "nobr": "false",
-                  "regexp": "^.{1,20}$",
+                  "regexp": "^.{1,255}$",
                   "strip": "True",
                   "type": "text_input"
                 },

@@ -1,9 +1,12 @@
-UIProvider ={"curId":"981","curNom":"GEL",
-  "grpId": "100004",
+UIProvider ={
+    "curId": "643","curNom":"RUB",
+
+  "round_math":"~1",
+  "grpId": "100001334",
   "id": "166",
   "logo": "166.gif",
   "receiptName": "",
-  "sName": "Бали",
+  "sName": "СкайЛинк Барнаул",
   "small_logo": "",
   "tag": "visible",
   "__objects": [
@@ -22,12 +25,12 @@ UIProvider ={"curId":"981","curNom":"GEL",
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Enter your number",
-                  "footer": "",
-                  "mask": "<!^\\d+${8,9}>",
+                  "header": "Введите Ваш номер",
+                  "footer": "Внимание! Номер телефона вводится без <8>, в формате: (ХХХ) ХХХ-ХХ-ХХ",
+                  "mask": "8(<!^\\d+${3}>)<!^\\d+${7}>",
                   "name": "account",
                   "nobr": "false",
-                  "regexp": "^\\d{8,9}$",
+                  "regexp": "^\\d{10}$",
                   "strip": "True",
                   "type": "text_input"
                 },

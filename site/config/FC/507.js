@@ -1,9 +1,9 @@
-UIProvider ={
-  "grpId": "100001",
+UIProvider ={"curId":"981","curNom":"GEL",
+  "grpId": "100004",
   "id": "507",
   "logo": "507.gif",
   "receiptName": "",
-  "sName": "ÓÑÑ-450",
+  "sName": "Magti GSM",
   "small_logo": "",
   "tag": "visible",
   "__objects": [
@@ -24,10 +24,10 @@ UIProvider ={
                 {
                   "header": "Enter your number",
                   "footer": "",
-                  "mask": "<!^\\d+${10}>",
+                  "mask": "<!^\\d+${8,9}>",
                   "name": "account",
                   "nobr": "false",
-                  "regexp": "^\\d{10}$",
+                  "regexp": "^\\d{8,9}$",
                   "strip": "True",
                   "type": "text_input"
                 },

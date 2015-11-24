@@ -23,7 +23,7 @@ UIProvider ={"curId":"398","curNom":"KZT",
               "__objects": [
                 {
                   "header": "Введите Ваш номер",
-                  "footer": "Внимание! Номер вводится в формате: 918xxxxxx, 98xxxxxxx . Пример: 918849705",
+                  "footer": "Внимание! Номер вводится в формате : 918xxxxxx, 98xxxxxxx. Пример: 918849705",
                   "mask": "<!^\\d+${9}>",
                   "name": "account",
                   "nobr": "false",

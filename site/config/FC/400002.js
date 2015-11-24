@@ -28,7 +28,7 @@ UIProvider = {
                   "mask": "9<!^\\d+${8}>",
                   "name": "account",
                   "nobr": "false",
-                  "regexp": "^[93|94]{2}[0-9]{7}$",
+                  "regexp": "^[0-9]{8}$",
                   "strip": "True",
                   "type": "text_input"
                 },
