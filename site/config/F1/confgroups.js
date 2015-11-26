@@ -10,7 +10,9 @@ UIGroups = [
 { "__type": "group", "id": "-100004", "logo": "icon_cellular_ge.png", "name": "Грузия", "tag": "visible" },
 { "__type": "group", "id": "-1000013", "logo": "icon_cellular_ar.png", "name": "Армения", "tag": "visible" },
 { "__type": "group", "id": "-1000014", "logo": "icon_cellular_az.png", "name": "Азербайджан", "tag": "visible" },
-{ "__type": "group", "id": "-1000015", "logo": "icon_cellular_uz.png", "name": "Узбекистан", "tag": "visible" }
+{ "__type": "group", "id": "-1000015", "logo": "icon_cellular_uz.png", "name": "Узбекистан", "tag": "visible" },
+{ "__type": "group", "id": "-100001211", "logo": "icon_games.png", "name": "Игры", "tag": "visible" }
+
 //{"__type":"group","id":"-100007","logo":"icon_cellular_vn.png","name":"Вьетнам","tag":"visible"},
 //{"__type":"group","id":"-100008","logo":"icon_cellular_in.png","name":"Индия","tag":"visible"}
 

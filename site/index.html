@@ -61,7 +61,7 @@
             $('new_button_3').style.background = 'url(\'./img/ui/index/button_orange_3_' + sLang + '.png\') no-repeat';
             $('new_button_4').style.background = 'url(\'./img/ui/index/button_orange_4_' + sLang + '.png\') no-repeat';
             $('new_button_skype').style.background = 'url(\'./img/ui/index/skype_' + sLang + '.png\') no-repeat';
-
+            $('new_button_games').style.background = 'url(\'./img/ui/index/games_' + sLang + '.gif\') no-repeat';
             $("Language").value = sLang;
             storage.clearExcept(["_adv_counter", "language"]);
 
@@ -175,6 +175,10 @@
 
             attachEventListener('new_button_skype', 'click', function () {
                 onButtonClick(7)
+            });
+
+            attachEventListener('new_button_games', 'click', function () {
+                onButtonClick(8)
             });
 
 
@@ -315,6 +319,12 @@
                     storage.put("provider", "7757");
                     top.location.href = "./provider.html";
                     break;
+
+                case 8:
+                    storage.put("click_new_index", 'false');
+                    storage.put("group", "-100001211");
+                    top.location.href = "./pages_g.html";
+                    break;
             }
         }
         function preloadMain() {
@@ -428,6 +438,8 @@
     <div style="position: absolute; width: 100px; height: 100px; left: 590px; top: 850px; background: url(./img/ui/index/inf.png);" onclick=" document.location.href = './karta.html'; "></div>
     <div id="rules" style="width: 300px; height: 114px; left: 700px; top: 836px; position: absolute;"></div>
     <div id="new_button_skype" style="position:absolute; width:300px; height: 114px; left: 480px; top: 690px;"></div>
+    <div id="new_button_games" style="position:absolute; width:300px; height: 114px; left: 480px; top: 110px;"></div>
+
     <div id='new_buttons' style='position: absolute; width: 1230px; height: 430px; left: 30px; top: 250px; z-index: 1000; text-align:center;'>
         <table width="100%" height="100%" >
             <tr>
