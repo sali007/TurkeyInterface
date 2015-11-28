@@ -1,12 +1,14 @@
-UIProvider ={"curId":"643","curNom":"RUB",
+UIProvider = {
+    "curId": "643", "curNom": "RUB",
+    
   "round_math":"~1",
-  "grpId": "100001",
-  "id": "534",
-  "logo": "534.gif",
+  "grpId": "100002",
+  "id": "1",
+  "logo": "7.gif",
   "receiptName": "",
-  "sName": "YOTA.Сотовая связь",
+  "sName": "Win Mobile",
   "small_logo": "",
-  "tag": "visible",
+  "tag": "visible,ranges",
   "__objects": [
     {
       "__type": "constParams"

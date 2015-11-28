@@ -23,11 +23,11 @@ UIProvider  ={"curId":"980","curNom":"UAH",
               "__objects": [
                 {
                   "header": "Введите Ваш номер телефона",
-                  "footer": "Номер вводится в формате: 37254123456",
+                  "footer": "Номер вводится в формате: 254123456",
                   "mask": "37<!^\\d+${9}>",
                   "name": "account",
                   "nobr": "false",
-                  "regexp": "^37\\d{9}$",
+                  "regexp": "^\\d{9}$",
                   "strip": "True",
                   "type": "text_input"
                 },
