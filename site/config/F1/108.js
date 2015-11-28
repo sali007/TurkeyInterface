@@ -28,7 +28,7 @@ UIProvider ={"curId":"643","curNom":"RUB",
                                     "mask": "host<!^\\d+${1,20}>",
                                     "name": "account",
                                     "nobr": "false",
-                                    "regexp": "^host\\d{1,20}$",
+                                    "regexp": "^\\w{1,20}$",
                                     "strip": "True",
                                     "type": "text_input"
                                 },

@@ -25,10 +25,10 @@ UIProvider ={"curId":"643","curNom":"RUB",
                                 {
                                     "header": "Адрес служебного сайта",
                                     "footer": "Введите адрес",
-                                    "mask": "<!^[a-zA-Z0-9._-]\.+[a-zA-Z]+${2,4}>",
+                                    "mask": "<!^[a-zA-Z0-9._-]+${1,255}>",
                                     "name": "account",
                                     "nobr": "false",
-                                    "regexp": "^[a-zA-Z0-9._-]\.+[a-zA-Z]{2,4}$",
+                                    "regexp": "^[a-zA-Z0-9._-]{1,255}$",
                                     "strip": "True",
                                     "type": "text_input"
                                 },

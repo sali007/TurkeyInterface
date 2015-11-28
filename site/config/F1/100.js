@@ -28,7 +28,7 @@ UIProvider ={"curId":"643","curNom":"RUB",
                                     "mask": "<!^\\d+${3,15}>/NIC-<!^[A-Za-z]+${1,3}>",
                                     "name": "account",
                                     "nobr": "false",
-                                    "regexp": "^\\d{3,15}/NIC-[A-Za-z]{1,3}$",
+                                    "regexp": "^\\w{9,23}$",
                                     "strip": "True",
                                     "type": "text_input"
                                 },

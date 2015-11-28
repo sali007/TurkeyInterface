@@ -25,10 +25,10 @@ UIProvider = {
                 {
                   "header": "Введите Ваш номер ",
                   "footer": "Внимание! Номер вводится в формате 91xxxxxx, 96xxxxxx, 99xxxxxx . Пример : 91756441",
-                  "mask": "9<!^\\d+${7}>",
+                  "mask": "<!^\\d+${8}>",
                   "name": "account",
                   "nobr": "false",
-                  "regexp": "^((91[0-9]{6})|(96[0-9]{6})|(99[0-9]{6}))$",
+                  "regexp": "^\\d{8}$",
                   "strip": "True",
                   "type": "text_input"
                 },
