@@ -3,7 +3,7 @@ UIProvider ={"curId":"643","curNom":"RUB",
   "id": "36",
   "logo": "36.gif",
   "receiptName": "",
-  "sName": "Сотовая связь МОТИВ",
+  "sName": "МОТИВ </br>Екатеринбург",
   "small_logo": "",
   "tag": "visible",
   "__objects": [

@@ -1,7 +1,7 @@
 UIGroup=[
 
-    { "__type": "group", "id": "-100001211", "logo": "icon_games.png", "name": "Игры", "tag": "visible" },
-    { "__type": "group", "id": "-100005103", "logo": "icon_internet.png", "name": "Интернет и <br/>  IP-телефония", "tag": "visible" },
+    { "__type": "group", "id": "-100001211", "logo": "icon_games.png", "name": "Games", "tag": "visible" },
+    { "__type": "group", "id": "-100005103", "logo": "icon_internet.png", "name": "Internet & IP TV", "tag": "visible" },
     { "__type": "provider", "id": "142", "tag": "visible", "logo": "142.gif", "sName": "Билайн Казахстан", "small_logo": "" },
     {"__type":"provider","id":"643","tag":"visible","logo":"643.gif","sName":"K-Cell","small_logo":""},
     { "__type": "provider", "id": "300006", "tag": "visible", "logo": "431.gif", "sName": "Tele2 & NEO", "small_logo": "" },

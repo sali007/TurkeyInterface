@@ -1,6 +1,6 @@
 UIGroup=[
 
-    { "__type": "group", "id": "-100001211", "logo": "icon_games.png", "name": "Игры", "tag": "visible" },
+    { "__type": "group", "id": "-100001211", "logo": "icon_games.png", "name": "Games", "tag": "visible" },
 {"__type":"provider","id":"300018","tag":"visible","logo":"289.gif","sName":"Билайн Грузия","small_logo":""},
 //{"__type":"provider","id":"824","tag":"visible","logo":"824.gif","sName":"Magti Fix","small_logo":""},
 {"__type":"provider","id":"507","tag":"visible","logo":"507.gif","sName":"Magti GSM","small_logo":""},

@@ -3,7 +3,7 @@ UIProvider ={"curId":"643","curNom":"RUB",
   "id": "36",
   "logo": "36.gif",
   "receiptName": "",
-  "sName": "Сотовая связь МОТИВ",
+  "sName": "МОТИВ </br>Екатеринбург",
   "small_logo": "",
   "tag": "visible",
   "__objects": [
@@ -23,7 +23,7 @@ UIProvider ={"curId":"643","curNom":"RUB",
               "__objects": [
                 {
                   "header": "Введите Ваш номер телефона или счета",
-                  "footer": "Номер содержит от 7 до 10 цифр. Например: (901)1231212",
+                  "footer": "Номер содержит от 7 до 10 цифр.</br> Например: (901)1231212",
                   "mask": "<!^\\d+${7,10}>",
                   "name": "account",
                   "nobr": "false",

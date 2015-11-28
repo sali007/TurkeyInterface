@@ -1,5 +1,5 @@
 UIGroup = [
-    { "__type": "group", "id": "-100001211", "logo": "icon_games.png", "name": "Игры", "tag": "visible" },
+    { "__type": "group", "id": "-100001211", "logo": "icon_games.png", "name": "Games", "tag": "visible" },
     { "__type": "provider", "id": "300008", "tag": "visible", "logo": "4914.gif", "sName": "Tcell/South", "small_logo": "" },
     { "__type": "provider", "id": "400065", "tag": "visible", "logo": "4914.gif", "sName": "Tcell/North", "small_logo": "" },
     { "__type": "provider", "id": "300009", "tag": "visible", "logo": "438.gif", "sName": "Билайн</br> Таджикистан", "small_logo": "" },

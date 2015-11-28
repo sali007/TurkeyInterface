@@ -1,7 +1,7 @@
 UIGroup = [
 
 
-    { "__type": "group", "id": "-100001211", "logo": "icon_games.png", "name": "Игры", "tag": "visible" },
+    { "__type": "group", "id": "-100001211", "logo": "icon_games.png", "name": "Games", "tag": "visible" },
 
 { "__type": "provider", "id": "5131", "tag": "visible", "logo": "5131.gif", "sName": "MegaCom", "small_logo": "" },
 { "__type": "provider", "id": "5132", "tag": "visible", "logo": "5132.gif", "sName": "О! НУР Телеком", "small_logo": "" },
