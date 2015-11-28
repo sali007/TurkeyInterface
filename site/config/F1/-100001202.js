@@ -7,8 +7,6 @@ UIGroup=[
     {"__type":"provider","id":"400059","tag":"visible","logo":"400059.gif","sName": "Дом.ru","small_logo": "" },
     { "__type": "provider", "id": "7757", "tag": "visible", "logo": "7757.gif", "sName": "Skype", "small_logo": "" },
     {"__type":"provider","id":"400069","tag":"visible","logo":"215.gif","sName":"NETBYNET","small_logo":""},
-    {"__type":"provider","id":"7","tag":"visible","logo":"7.gif","sName":"Win Mobile","small_logo":""},
-    {"__type":"provider","id":"8","tag":"visible","logo":"8.gif","sName":"EkoMobile","small_logo":""},
     {"__type":"provider","id":"400070","tag":"visible","logo":"300002.gif","sName":"OnLime","small_logo":""},
     {"__type":"provider","id":"400071","tag":"visible","logo":"50.gif","sName":"АКАДО","small_logo":""},
     {"__type":"provider","id":"95","tag":"visible","logo":"95.png","sName":"Акадо Урал","small_logo":""},
