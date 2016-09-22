@@ -25,10 +25,10 @@ UIProvider ={"curId":"980","curNom":"UAH",
                 {
                     "header": "Введите Ваш логин",
                   "footer": "Внимание! Зачисление производится в течении 24 часов",
-                  "mask": "<!^.+${1,20}>",
+                  "mask": "<!^.*${1,20}>",
                   "name": "account",
                   "nobr": "false",
-                  "regexp": "^\\w{1,20}$",
+                  "regexp": "^.{1,20}$",
                   "strip": "True",
                   "type": "text_input"
                 },
