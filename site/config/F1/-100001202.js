@@ -1,4 +1,5 @@
 UIGroup=[
+    {"__type":"provider","id":"12","tag":"visible","logo":"12.gif","sName":"VIBER","small_logo":""},
     {"__type":"provider","id":"400068","tag":"visible","logo":"400068.gif","sName":"QWERTY","small_logo":""},
     {"__type":"provider","id":"400067","tag":"visible","logo":"2.gif","sName":"Билайн Интернет","small_logo":""},
     {"__type":"provider","id":"400074","tag":"visible","logo":"400074.gif","sName":"Домолинк","small_logo":""},

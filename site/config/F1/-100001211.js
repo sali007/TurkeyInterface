@@ -8,6 +8,8 @@ UIGroup=[
     { "__type": "provider", "id": "8809", "tag": "visible", "logo": "8809.gif", "sName": "Warface", "small_logo": "" },
     {"__type":"provider","id":"533","tag":"visible","logo":"533.gif","sName":"World of Warplanes","small_logo":""},
     {"__type":"provider","id":"540","tag":"visible","logo":"540.gif","sName":"World of Warships","small_logo":""},
+    {"__type":"provider","id":"8810","tag":"visible","logo":"8810.gif","sName":"War Thunder","small_logo":""},
+    {"__type":"provider","id":"8811","tag":"visible","logo":"8811.gif","sName":"Armored Warfare","small_logo":""},
     {"__type":"provider","id":"4134","tag":"visible","logo":"4134.gif","sName":"World of tanks","small_logo":""},
     {"__type":"provider","id":"2443","tag":"visible","logo":"2443.gif","sName":"Аллоды Онлайн","small_logo":""},
 {"__type":"provider","id":"1381","tag":"visible","logo":"1381.gif","sName":"Perfect World","small_logo":""},

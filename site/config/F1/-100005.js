@@ -2,7 +2,10 @@ UIGroup=[
 
     { "__type": "group", "id": "-100001211", "logo": "icon_games.png", "name": "Игры", "tag": "visible" },
     { "__type": "group", "id": "-100005103", "logo": "icon_internet.png", "name": "Интернет и <br/>  IP-телефония", "tag": "visible" },
+    {"__type":"provider","id":"12","tag":"visible","logo":"12.gif","sName":"VIBER","small_logo":""},
     { "__type": "provider", "id": "142", "tag": "visible", "logo": "142.gif", "sName": "Билайн Казахстан", "small_logo": "" },
+    { "__type": "provider", "id": "645", "tag": "visible", "logo": "645.gif", "sName": "CITY Казахстан сотовая связь", "small_logo": "" },
+    { "__type": "provider", "id": "646", "tag": "visible", "logo": "646.gif", "sName": "ALTEL Казахстан сотовая связь", "small_logo": "" },
     {"__type":"provider","id":"643","tag":"visible","logo":"643.gif","sName":"K-Cell","small_logo":""},
     { "__type": "provider", "id": "300006", "tag": "visible", "logo": "431.gif", "sName": "Tele2 & NEO", "small_logo": "" },
     { "__type": "provider", "id": "644", "tag": "visible", "logo": "644.gif", "sName": "Activ", "small_logo": "" },

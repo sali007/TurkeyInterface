@@ -1,6 +1,7 @@
 UIGroup=[
 { "__type": "group", "id": "-10000220", "logo": "icon_cellular.png", "name": "Сотовая связь", "tag": "visible" },
 { "__type": "group", "id": "-100001124", "logo": "icon_cellular_turistic.png", "name": "Туристические сим карты", "tag": "visible" },
+    {"__type":"provider","id":"12","tag":"visible","logo":"12.gif","sName":"VIBER","small_logo":""},
     { "__type": "group", "id": "-100002103", "logo": "icon_internet.png", "name": "Интернет и IP</br>-телефония", "tag": "visible" },
 //{ "__type": "group", "id": "-100002103", "logo": "icon_internet.png", "name": "Интернет и IP-телефония", "tag": "visible" },
 { "__type": "group", "id": "-100001122", "logo": "icon_emoney.png", "name": "Электронные деньги", "tag": "visible" },

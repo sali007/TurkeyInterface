@@ -1,6 +1,6 @@
 UIGroup = [
 { "__type": "provider", "id": "1", "tag": "visible", "logo": "1.gif", "sName": "МТС", "small_logo": "" },
-    { "__type": "provider", "id": "6002", "tag": "visible", "logo": "6002.gif", "sName": "Turkcell", "small_logo": "" },
+  //  { "__type": "provider", "id": "6002", "tag": "visible", "logo": "6002.gif", "sName": "Turkcell", "small_logo": "" },
 { "__type": "provider", "id": "2", "tag": "visible", "logo": "2.gif", "sName": "Билайн", "small_logo": "" },
 { "__type": "group", "id": "-100001333", "logo": "3.gif", "name": "МегаФон", "tag": "visible" },
 { "__type": "provider", "id": "42", "tag": "visible", "logo": "42.gif", "sName": "Теле2", "small_logo": "" },

@@ -2,6 +2,7 @@ UIGroup = [
     { "__type": "group", "id": "-100001211", "logo": "icon_games.png", "name": "Игры", "tag": "visible" },
     { "__type": "provider", "id": "400066", "tag": "visible", "logo": "400066.gif", "sName": "Молдтелеком", "small_logo": "" },
     { "__type": "provider", "id": "763", "tag": "visible", "logo": "763.gif", "sName": "Moldcell", "small_logo": "" },
+    {"__type":"provider","id":"12","tag":"visible","logo":"12.gif","sName":"VIBER","small_logo":""},
     {"__type":"provider","id":"143","tag":"visible","logo":"143.gif","sName":"Orange Moldova","small_logo":""}
 
  //   { "__type": "group", "id": "-100001124", "logo": "icon_cellular.png", "name": "Туристические сим карты", "tag": "visible" },
