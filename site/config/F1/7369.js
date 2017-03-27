@@ -2,9 +2,9 @@ UIProvider ={"curId":"980","curNom":"UAH",
 
   "grpId": "100002",
   "id": "7369",
-  "logo": "56.gif",
+  "logo": "7369.gif",
   "receiptName": "",
-  "sName": "WebMoney",
+  "sName": "3 Mob",
   "small_logo": "",
   "tag": "visible",
   "__objects": [
@@ -23,12 +23,12 @@ UIProvider ={"curId":"980","curNom":"UAH",
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "¬ведите номер U-кошелька",
+                  "header": "¬ведите номер телефона",
                   "footer": "",
-                  "mask": "U<!^\\d+${12}>",
+                  "mask": "<!^\\d+${10}>",
                   "name": "account",
                   "nobr": "false",
-                  "regexp": "^U\\d{12}$",
+                  "regexp": "^\\d{10}$",
                   "strip": "False",
                   "type": "text_input"
                 },

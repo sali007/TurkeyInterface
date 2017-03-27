@@ -2,9 +2,9 @@ UIProvider ={"curId":"980","curNom":"UAH",
 
   "grpId": "100002",
   "id": "7364",
-  "logo": "5069.gif",
+  "logo": "7364.gif",
   "receiptName": "",
-  "sName": "Воля.Киев.ЕУ",
+  "sName": "Водафон",
   "small_logo": "",
   "tag": "visible",
   "__objects": [
@@ -23,12 +23,12 @@ UIProvider ={"curId":"980","curNom":"UAH",
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите номер договора",
+                  "header": "Введите номер телефона",
                   "footer": "",
-                  "mask": "<!^\\d+${1,20}>",
+                  "mask": "<!^\\d+${10}>",
                   "name": "account",
                   "nobr": "false",
-                  "regexp": "^\\d{1,20}$",
+                  "regexp": "^\\d{10}$",
                   "strip": "false",
                   "type": "text_input"
                 },

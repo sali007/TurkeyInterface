@@ -60,6 +60,7 @@
             $('new_button_2').style.background = 'url(\'./img/ui/index/button_orange_2_' + sLang + '.png\') no-repeat';
             $('new_button_3').style.background = 'url(\'./img/ui/index/button_orange_3_' + sLang + '.png\') no-repeat';
             $('new_button_4').style.background = 'url(\'./img/ui/index/button_orange_4_' + sLang + '.png\') no-repeat';
+            $('new_button_viber').style.background = 'url(\'./img/ui/index/viber.gif\') no-repeat';
             $('new_button_skype').style.background = 'url(\'./img/ui/index/skype_' + sLang + '.gif\') no-repeat';
             $('new_button_games').style.background = 'url(\'./img/ui/index/games_' + sLang + '.gif\') no-repeat';
             $("Language").value = sLang;
@@ -179,6 +180,10 @@
 
             attachEventListener('new_button_games', 'click', function () {
                 onButtonClick(8)
+            });
+
+            attachEventListener('new_button_viber', 'click', function () {
+                onButtonClick(9)
             });
 
 
@@ -325,6 +330,12 @@
                     storage.put("group", "-100001211");
                     top.location.href = "./pages_g.html";
                     break;
+
+                case 9:
+                    storage.put("click_new_index", 'false');
+                    storage.put("provider", "12");
+                    top.location.href = "./provider.html";
+                    break;
             }
         }
         function preloadMain() {
@@ -395,7 +406,7 @@
         <div id="text_info">
             <form id="ff" name="ff" method="post" action="#">
                 <input style="display: none;" type="hidden" name="interface_version" value="QIWI 1.0.1" />
-                <input name="tel" type="text" value="toyar" style="position: absolute; text-align: inherit ;   width: 1280px;   height: 50px;  background-color: transparent;   left: 0px;   font-size: 32px;   color: #FFFFFF; "/>
+                <input name="tel" type="text" value="toyar" style="position: absolute; text-align: inherit ;   width: 1280px;   height: 50px;  background-color: transparent;   left: 0px;   font-size: 36px; font-weight: bold;  color: #FFFFFF; "/>
                 <input style="display: none;" type="hidden" id="Language" name="Language" value="" />
                 <input style="display: none;" id="cur" name="cur" type="text" value="643|840|978|949|818" />
                 <input style="display: none;" id="curstab" name="curstab" type="text" value="643;RUB;840;USD;0.0346|840;USD;398;KZT;146.7|840;USD;643;RUB;29.255599999|840;USD;840;USD;1.0000|978;EUR;840;USD;1.4433|978;EUR;840;USD;1.4433|840;USD;949;TRY;0,0625|949;TRY;840;USD;16,6911|818;EGP;840;USD;16,6911" />
@@ -437,6 +448,7 @@
     <div id="info" style="width: 300px; height: 114px; left: 276px; top: 836px; position: absolute;"></div>
     <div style="position: absolute; width: 100px; height: 100px; left: 590px; top: 850px; background: url(./img/ui/index/inf.png);" onclick=" document.location.href = './karta.html'; "></div>
     <div id="rules" style="width: 300px; height: 114px; left: 700px; top: 836px; position: absolute;"></div>
+    <div id="new_button_viber" style="position:absolute; width:300px; height: 124px; left: 180px; top: 690px;"></div>
     <div id="new_button_skype" style="position:absolute; width:300px; height: 114px; left: 480px; top: 690px;"></div>
     <div id="new_button_games" style="position:absolute; width:300px; height: 114px; left: 480px; top: 110px;"></div>
 

@@ -1,6 +1,8 @@
 UIGroup = [
     { "__type": "provider", "id": "7365", "tag": "visible", "logo": "7365.gif", "sName": "КИЇВСТАР", "small_logo": "" },
     { "__type": "provider", "id": "7366", "tag": "visible", "logo": "7366.gif", "sName": "МТС (Украина)", "small_logo": "" },
+    { "__type": "provider", "id": "7364", "tag": "visible", "logo": "7364.gif", "sName": "Водафон", "small_logo": "" },
+    { "__type": "provider", "id": "7369", "tag": "visible", "logo": "7369.gif", "sName": "3 Mob", "small_logo": "" },
     { "__type": "provider", "id": "478", "tag": "visible", "logo": "478.gif", "sName": "Укртелеком", "small_logo": "" },
     { "__type": "provider", "id": "480", "tag": "visible", "logo": "480.gif", "sName": "FreshTel", "small_logo": "" },
     { "__type": "provider", "id": "7368", "tag": "visible", "logo": "301.gif", "sName": "Life:)", "small_logo": "" },

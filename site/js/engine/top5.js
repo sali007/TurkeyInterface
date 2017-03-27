@@ -39,12 +39,12 @@ top.location.href = "./redirect_top_prv.html";
 
 }	
 
-function clickprv383(){
-                    storage.put("prv_id", "383");
+function clickprv42(){
+                    storage.put("prv_id", "42");
                     storage.put("prv_name", "Гудлайн");
-                    storage.put("prv_logo", "./img/ui_item/383.gif");
+                    storage.put("prv_logo", "./img/ui_item/42.gif");
                     storage.put("last_page", document.location.href);
-getScript("./config/F1/383.js"); 
+getScript("./config/F1/42.js");
 top.location.href = "./redirect_top_prv.html";	
 
 }	
